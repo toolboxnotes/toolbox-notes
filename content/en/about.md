@@ -9,7 +9,3 @@ It isn't tied to one topic — any tool I made because I needed it can show up h
 - what went wrong along the way, and what I learned
 
 This blog is available in English and Korean. Use the language button at the top of the page to switch.
-
-## Contact
-
-Questions or suggestions are welcome via [GitHub](https://github.com/zy1256work-prog).

@@ -21,7 +21,3 @@ You can opt out of personalized advertising in [Google Ads Settings](https://ads
 ## Hosting and analytics
 
 This site is served by Cloudflare, which may process basic connection data such as IP addresses for security and delivery. If an analytics tool is added, it will be disclosed on this page.
-
-## Contact
-
-For privacy questions, please reach out via [GitHub](https://github.com/zy1256work-prog).
