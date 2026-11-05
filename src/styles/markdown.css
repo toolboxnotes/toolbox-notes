@@ -20,7 +20,8 @@
     }
 
     a:not(.no-styling) {
-        @apply relative bg-none transition rounded-md p-1 -m-1 before:ease-out before:transition active:bg-none hover:before:bg-[var(--btn-plain-bg-hover)] active:before:bg-[var(--btn-plain-bg-active)] z-0 before:absolute before:rounded-[inherit] before:inset-0 before:scale-[0.85] hover:before:scale-100 before:-z-10 font-medium text-[var(--primary)] underline decoration-[var(--link-underline)] decoration-1 decoration-dashed underline-offset-4;
+        @apply relative bg-none transition rounded-md p-1 -m-1 before:ease-out before:transition active:bg-none hover:before:bg-[var(--btn-plain-bg-hover)] active:before:bg-[var(--btn-plain-bg-active)] z-0 before:absolute before:rounded-[inherit] before:inset-0 before:scale-[0.85] hover:before:scale-100 before:-z-10 font-medium text-[var(--primary)]
+        underline decoration-[var(--link-underline)] decoration-1 decoration-dashed underline-offset-4;
         box-decoration-break: clone;
         -webkit-box-decoration-break: clone;
         display: inline-block;
@@ -73,10 +74,17 @@
         @apply opacity-100 fill-white dark:fill-white/75;
     }
     .copy-btn.success .copy-icon {
-        @apply opacity-0 fill-[var(--deep-text)] } .copy-btn .success-icon { @apply fill-white;
+        @apply opacity-0 fill-[var(--deep-text)]
+    }
+    .copy-btn .success-icon {
+        @apply opacity-0 fill-white;
     }
     .copy-btn.success .success-icon {
-        @apply opacity-100 } .expressive-code { @apply my-4;
+        @apply opacity-100
+    }
+
+    .expressive-code {
+        @apply my-4;
         ::selection {
             @apply bg-[var(--codeblock-selection)];
         }
