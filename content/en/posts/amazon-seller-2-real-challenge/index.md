@@ -1,6 +1,6 @@
 ---
 title: '[2/5] The Real Challenge After You Start Selling'
-published: 2026-11-05T10:00:00+09:00
+published: 2026-11-01
 description: 'As your catalog grows, managing it becomes the real job. The six things to check every day, and why Seller Central makes it hard, with real screens.'
 tags: [Amazon, Seller Central, Operations]
 category: Amazon Seller
@@ -64,11 +64,11 @@ Only after you do this for inventory, all listings, orders, returns, business an
 
 ## So we built a tool for it
 
-Instead of doing this by hand every day, we built a program. **Seller Central Helper** gathers the reports above, lines them up, and lists today's to-dos in order of urgency.
+Instead of doing this by hand every day, we built a program. **SellerMorning** gathers the reports above, lines them up, and lists today's to-dos in order of urgency.
 
-![Seller Central Helper main window](./helper-main.png)
+![SellerMorning main window](./helper-main.png)
 
-*The Seller Central Helper main window. Pick features on the left; Today's Summary on the right ranks the to-dos from P0 to P3. On this day, listing attribute errors flagged by Amazon came up as P0 (sales figures, SKUs and ASINs masked; the program's screens are in Korean).*
+*The SellerMorning main window. Pick features on the left; Today's Summary on the right ranks the to-dos from P0 to P3. On this day, listing attribute errors flagged by Amazon came up as P0 (sales figures, SKUs and ASINs masked; the program's screens are in Korean).*
 
 From the next post on, we go through its features one by one. First up: pulling inventory, order and sales data together in one place.
 

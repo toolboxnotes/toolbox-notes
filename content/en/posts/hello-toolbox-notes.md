@@ -1,6 +1,6 @@
 ---
 title: 'Hello, Toolbox Notes'
-published: 2026-11-05
+published: 2026-10-30
 description: 'Why this blog exists: notes on the small tools I build to make everyday work easier.'
 tags: [Meta]
 category: Notes

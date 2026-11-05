@@ -1,8 +1,8 @@
 ---
 title: '[4/5] Your Amazon Ads at a Glance'
-published: 2026-11-05T12:00:00+09:00
+published: 2026-11-03
 description: 'The ads feature finds searches that waste money, bids that eat profit and keywords you missed, and says exactly how to fix them.'
-tags: [Amazon, Seller Central Helper, Amazon Ads, PPC]
+tags: [Amazon, SellerMorning, Amazon Ads, PPC]
 category: Amazon Seller
 draft: false
 ---
@@ -18,9 +18,9 @@ Most of the leaks come from four places.
 - **Missed chances** — a search term sells well in an auto campaign but was never moved to an exact-match keyword
 - **Ads out of step with stock** — ads keep running for a product that is almost out of stock or has lost the Buy Box
 
-The ads feature of Seller Central Helper finds these four every day and suggests what to change, where, and by how much.
+The ads feature of SellerMorning finds these four every day and suggests what to change, where, and by how much.
 
-![Seller Central Helper feature list](./helper-features.png)
+![SellerMorning feature list](./helper-features.png)
 
 *The feature list on the left of the program. The ads features are 'Collect ad data and suggest actions' and 'Re-run ad analysis only', which reuses data already downloaded (the program's screens are in Korean).*
 

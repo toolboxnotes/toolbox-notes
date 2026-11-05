@@ -1,8 +1,8 @@
 ---
 title: '[4/5] 광고를 한눈에'
-published: 2026-11-05T12:00:00+09:00
+published: 2026-11-03
 description: '팔리지 않는 검색어, 맞지 않는 입찰가, 놓친 키워드를 매일 찾아 실행 방법까지 제안하는 광고 분석 기능을 소개합니다.'
-tags: [아마존, Seller Central 도우미, 아마존 광고, PPC]
+tags: [아마존, SellerMorning, 아마존 광고, PPC]
 category: 아마존 셀러
 draft: false
 ---
@@ -18,9 +18,9 @@ draft: false
 - **놓친 기회** — 자동 캠페인에서 잘 팔리는데 정확 일치 키워드로 옮기지 않은 검색어
 - **재고와 어긋난 광고** — 재고가 거의 없거나 Buy Box를 잃었는데 계속 도는 광고
 
-Seller Central 도우미의 광고 기능은 이 네 가지를 매일 찾아 ‘무엇을, 어디서, 얼마나’ 바꾸면 되는지 제안합니다.
+SellerMorning의 광고 기능은 이 네 가지를 매일 찾아 ‘무엇을, 어디서, 얼마나’ 바꾸면 되는지 제안합니다.
 
-![Seller Central 도우미 기능 목록](./helper-features.png)
+![SellerMorning 기능 목록](./helper-features.png)
 
 *프로그램 왼쪽의 기능 목록. 광고 기능은 ‘광고 데이터 수집·조치 제안’과, 이미 받은 자료로 분석만 다시 하는 ‘광고 분석만 다시 하기’ 두 가지입니다.*
 

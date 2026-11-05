@@ -1,6 +1,6 @@
 ---
 title: '[1/5] Anyone Can Become an Amazon Seller'
-published: 2026-11-05T09:00:00+09:00
+published: 2026-10-31
 description: 'How to become an Amazon.com seller with an ID, a bank account and one product: registering, listing and making your first sale, step by step.'
 tags: [Amazon, Getting Started, FBA]
 category: Amazon Seller
@@ -83,11 +83,11 @@ The first order rarely comes on its own, though. A new product has no reviews an
 
 At this point you are an Amazon seller. But once you have 10 or 50 products, new problems appear. The next post covers the management struggles every seller runs into.
 
-From part 3 on, we introduce the program we built and use ourselves to take over that work: **Seller Central Helper**. Its rule is simple: checks and suggestions run automatically, and edits apply only after the seller reviews them.
+From part 3 on, we introduce the program we built and use ourselves to take over that work: **SellerMorning**. Its rule is simple: checks and suggestions run automatically, and edits apply only after the seller reviews them.
 
-![Seller Central Helper](./helper-header.png)
+![SellerMorning](./helper-header.png)
 
-*The top of the Seller Central Helper window, showing the Amazon API connection status and settings (the program's screens are in Korean).*
+*The top of the SellerMorning window, showing the Amazon API connection status and settings (the program's screens are in Korean).*
 
 ---
 

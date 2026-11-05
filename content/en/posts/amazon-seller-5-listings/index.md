@@ -1,8 +1,8 @@
 ---
 title: '[5/5] Your Amazon Listings at a Glance'
-published: 2026-11-05T13:00:00+09:00
+published: 2026-11-04
 description: 'Check every listing against rules like the 75-character title limit, then apply only the fixes you approve, with an undo for each.'
-tags: [Amazon, Seller Central Helper, Listings, SP-API]
+tags: [Amazon, SellerMorning, Listings, SP-API]
 category: Amazon Seller
 draft: false
 ---
@@ -69,7 +69,7 @@ There are safeguards too. A price change over 30% or a price that loses money ne
 
 ## Wrapping up the series
 
-Anyone can become an Amazon seller, but as your catalog grows, success comes down to how fast you find problems each day. Seller Central Helper checks your data, ads and listings every day, so each morning you read one page, Today's Summary, and simply decide.
+Anyone can become an Amazon seller, but as your catalog grows, success comes down to how fast you find problems each day. SellerMorning checks your data, ads and listings every day, so each morning you read one page, Today's Summary, and simply decide.
 
 | Built for                                    | Why                                                        |
 |----------------------------------------------|------------------------------------------------------------|
@@ -77,7 +77,7 @@ Anyone can become an Amazon seller, but as your catalog grows, success comes dow
 | Overseas sellers shipping to the US with FBA | The program handles US time zones and report waits for you |
 | Brands with a large ad budget                | Daily ad suggestions and tracking of their results         |
 
-Seller Central Helper is the program we use every day and keep improving. We will keep writing up new features and what we learn along the way here.
+SellerMorning is the program we use every day and keep improving. We will keep writing up new features and what we learn along the way here.
 
 ---
 

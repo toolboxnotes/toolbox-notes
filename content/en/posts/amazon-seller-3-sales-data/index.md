@@ -1,13 +1,13 @@
 ---
 title: '[3/5] Your Amazon Sales Data at a Glance'
-published: 2026-11-05T11:00:00+09:00
-description: 'Seller Central Helper gathers inventory, order and sales reports and turns them into one morning to-do page. Here are its data features.'
-tags: [Amazon, Seller Central Helper, Inventory, Reports]
+published: 2026-11-02
+description: 'SellerMorning gathers inventory, order and sales reports and turns them into one morning to-do page. Here are its data features.'
+tags: [Amazon, SellerMorning, Inventory, Reports]
 category: Amazon Seller
 draft: false
 ---
 
-## Seller Central Helper: your morning to-do list on one page
+## SellerMorning: your morning to-do list on one page
 
 This is the program that replaces the ‘six menus, many reports, long waits’ from the last post. It runs on your own PC, gathers the reports into Excel, and tells you what needs doing now, ranked P0 to P3.
 
@@ -16,9 +16,9 @@ It works in two ways.
 - **Amazon's official API (SP-API) first** — inventory, orders, finance and Buy Box data come straight from the API, without opening a page.
 - **A browser for pages the API doesn't cover** — for pages such as the report center, it downloads reports in the browser, the same way a seller would, with generous pauses between clicks so it never puts load on Amazon's site.
 
-![Seller Central Helper main window](./helper-log.png)
+![SellerMorning main window](./helper-log.png)
 
-*The Seller Central Helper main window. Pick a feature on the left, or tick several to run in order; the run log and result files appear on the right (the program's screens are in Korean).*
+*The SellerMorning main window. Pick a feature on the left, or tick several to run in order; the run log and result files appear on the right (the program's screens are in Korean).*
 
 ## The data features at a glance
 
