@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro';
+import { LANGS, t, type Lang } from '../../i18n';
+
+export function getStaticPaths() {
+  return LANGS.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Lang;
+const s = t(lang);
+const UPDATED = '2026-11-05';
+const CONTACT_URL = 'https://github.com/zy1256work-prog';
+---
+
+<Base lang={lang} title={s.privacy} alternates={{ en: '/en/privacy/', ko: '/ko/privacy/' }}>
+  <article class="article">
+    <header class="article-head">
+      <a class="back" href={`/${lang}/`}>{s.backToList}</a>
+      <h1>{s.privacy}</h1>
+      <div class="meta"><span>{s.updated} {UPDATED}</span></div>
+    </header>
+    <div class="prose">
+      {
+        lang === 'ko' ? (
+          <>
+            <p>Toolbox Notes(이하 "본 사이트")는 방문자의 개인정보를 중요하게 생각합니다. 본 방침은 본 사이트가 어떤 정보를 어떻게 다루는지 설명합니다.</p>
+            <h2>수집하는 정보</h2>
+            <p>본 사이트는 회원가입이나 댓글 기능이 없으며, 이름·이메일 등 개인정보를 직접 수집하지 않습니다.</p>
+            <h2>쿠키와 언어 설정</h2>
+            <p>사용자가 언어를 직접 선택하면, 다음 방문 시 같은 언어를 보여주기 위해 해당 선택을 브라우저의 로컬 저장소에 저장합니다. 이 정보는 서버로 전송되지 않습니다.</p>
+            <h2>광고 (Google AdSense)</h2>
+            <p>본 사이트는 향후 Google AdSense 광고를 게재할 수 있습니다. Google을 포함한 제3자 광고 업체는 쿠키를 사용하여 사용자의 본 사이트 및 다른 웹사이트 방문 기록을 바탕으로 광고를 게재할 수 있습니다.</p>
+            <p>
+              맞춤 광고는 <a href="https://adssettings.google.com">Google 광고 설정</a>에서 해제할 수 있으며, 자세한 내용은
+              <a href="https://policies.google.com/technologies/ads">Google 광고 정책</a>을 참고하세요.
+            </p>
+            <h2>호스팅 및 통계</h2>
+            <p>본 사이트는 Cloudflare를 통해 제공되며, Cloudflare는 보안 및 서비스 운영을 위해 IP 주소 등 기본적인 접속 정보를 처리할 수 있습니다. 방문 통계 도구를 도입하는 경우 이 페이지에 안내하겠습니다.</p>
+            <h2>문의</h2>
+            <p>개인정보 관련 문의는 <a href={CONTACT_URL}>GitHub</a>를 통해 남겨 주세요.</p>
+          </>
+        ) : (
+          <>
+            <p>Toolbox Notes ("this site") respects your privacy. This page explains what information this site handles and how.</p>
+            <h2>Information we collect</h2>
+            <p>This site has no accounts or comments and does not directly collect personal information such as your name or email address.</p>
+            <h2>Cookies and language preference</h2>
+            <p>If you pick a language manually, that choice is saved in your browser's local storage so the site can show the same language next time. It is never sent to a server.</p>
+            <h2>Advertising (Google AdSense)</h2>
+            <p>This site may display ads served by Google AdSense. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this site and other websites.</p>
+            <p>
+              You can opt out of personalized advertising in <a href="https://adssettings.google.com">Google Ads Settings</a>. See
+              <a href="https://policies.google.com/technologies/ads">how Google uses information from sites that use its services</a> for details.
+            </p>
+            <h2>Hosting and analytics</h2>
+            <p>This site is served by Cloudflare, which may process basic connection data such as IP addresses for security and delivery. If an analytics tool is added, it will be disclosed on this page.</p>
+            <h2>Contact</h2>
+            <p>For privacy questions, please reach out via <a href={CONTACT_URL}>GitHub</a>.</p>
+          </>
+        )
+      }
+    </div>
+  </article>
+</Base>

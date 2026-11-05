@@ -1,0 +1,43 @@
+---
+// Root "/" — sends visitors to /ko/ or /en/ based on their saved choice or browser language.
+const site = Astro.site;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Toolbox Notes</title>
+    <meta name="description" content="Small tools, built for convenience. / 편하려고 만든 작은 도구들." />
+    <link rel="alternate" hreflang="en" href={new URL('/en/', site)} />
+    <link rel="alternate" hreflang="ko" href={new URL('/ko/', site)} />
+    <link rel="alternate" hreflang="x-default" href={new URL('/en/', site)} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script is:inline>
+      (function () {
+        var lang = null;
+        try { lang = localStorage.getItem('lang'); } catch (e) {}
+        if (lang !== 'en' && lang !== 'ko') {
+          var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];
+          lang = 'en';
+          for (var i = 0; i < prefs.length; i++) {
+            var p = String(prefs[i]).toLowerCase();
+            if (p.indexOf('ko') === 0) { lang = 'ko'; break; }
+            if (p.indexOf('en') === 0) { lang = 'en'; break; }
+          }
+        }
+        location.replace('/' + lang + '/');
+      })();
+    </script>
+    <style>
+      body { font-family: system-ui, sans-serif; display: grid; place-items: center; min-height: 100vh; margin: 0; }
+      a { margin: 0 8px; }
+    </style>
+  </head>
+  <body>
+    <p>
+      <a href="/en/">English</a> · <a href="/ko/">한국어</a>
+    </p>
+  </body>
+</html>

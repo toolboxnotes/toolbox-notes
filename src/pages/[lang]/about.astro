@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import { LANGS, t, type Lang } from '../../i18n';
+
+export function getStaticPaths() {
+  return LANGS.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Lang;
+const s = t(lang);
+const CONTACT_URL = 'https://github.com/zy1256work-prog';
+---
+
+<Base
+  lang={lang}
+  title={s.about}
+  description={s.intro}
+  alternates={{ en: '/en/about/', ko: '/ko/about/' }}
+>
+  <article class="article">
+    <header class="article-head">
+      <a class="back" href={`/${lang}/`}>{s.backToList}</a>
+      <h1>{s.about}</h1>
+    </header>
+    <div class="prose">
+      {
+        lang === 'ko' ? (
+          <>
+            <p>
+              <strong>Toolbox Notes</strong>는 반복되는 일을 조금이라도 덜 귀찮게 만들기 위해 직접 만든 작은 프로그램들을 기록하는
+              블로그입니다.
+            </p>
+            <p>특정 분야에 한정하지 않고, 필요해서 만든 도구라면 무엇이든 다룹니다. 글마다 다음 내용을 정리하려고 합니다.</p>
+            <ul>
+              <li>어떤 문제를 해결하려고 만들었는지</li>
+              <li>주요 기능과 사용 방법</li>
+              <li>만들면서 겪은 시행착오와 배운 점</li>
+            </ul>
+            <h2>연락처</h2>
+            <p>
+              질문이나 제안은 <a href={CONTACT_URL}>GitHub</a>로 남겨 주세요.
+            </p>
+          </>
+        ) : (
+          <>
+            <p>
+              <strong>Toolbox Notes</strong> is where I write about the small programs I build to make repetitive work a
+              little less tedious.
+            </p>
+            <p>It isn't tied to one topic — any tool I made because I needed it can show up here. Each post covers:</p>
+            <ul>
+              <li>the problem the tool was built to solve</li>
+              <li>what it does and how to use it</li>
+              <li>what went wrong along the way, and what I learned</li>
+            </ul>
+            <h2>Contact</h2>
+            <p>
+              Questions or suggestions are welcome via <a href={CONTACT_URL}>GitHub</a>.
+            </p>
+          </>
+        )
+      }
+    </div>
+  </article>
+</Base>
