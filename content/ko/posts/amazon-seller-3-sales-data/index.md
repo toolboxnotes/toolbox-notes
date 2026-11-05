@@ -1,5 +1,5 @@
 ---
-title: '[3/5] 판매 데이터를 한눈에'
+title: '아마존 재고·주문·매출 관리, 매일 아침 한 장으로 끝내는 법'
 published: 2026-11-02
 description: '재고·주문·매출 보고서를 모아 매일 아침 할 일을 한 장으로 보여 주는 SellerMorning의 데이터 기능을 소개합니다.'
 tags: [아마존, SellerMorning, 재고, 보고서]
