@@ -150,8 +150,7 @@ fs.writeFileSync(
 fs.writeFileSync(
 	path.join(dist, "robots.txt"),
 	`User-agent: *
-Disallow: /en/_astro/
-Disallow: /ko/_astro/
+Allow: /
 
 ${LANGS.map((l) => `Sitemap: ${SITE_URL}/${l}/sitemap-index.xml`).join("\n")}
 `,
