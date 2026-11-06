@@ -5,6 +5,7 @@ import Markdown from "@components/misc/Markdown.astro";
 import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
+import { SITE_LANG } from "../config";
 
 const aboutPost = await getEntry("spec", "about");
 
@@ -13,8 +14,9 @@ if (!aboutPost) {
 }
 
 const { Content } = await render(aboutPost);
+const pageDescription = SITE_LANG === "ko" ? "Toolbox Notes 소개: 10년 경력 개발자이자 5년 차 온라인 셀러가 직접 만든 업무 자동화 도구와 아마존 셀러 관리 프로그램 SellerMorning을 기록하는 블로그입니다." : "About Toolbox Notes: a developer with 10+ years of coding and 5+ years of running online stores writes about the small tools he builds, including the Amazon seller helper SellerMorning.";
 ---
-<MainGridLayout title={i18n(I18nKey.about)} description={i18n(I18nKey.about)}>
+<MainGridLayout title={i18n(I18nKey.about)} description={pageDescription}>
     <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
         <div class="card-base z-10 px-9 py-6 relative w-full ">
             <Markdown class="mt-2">

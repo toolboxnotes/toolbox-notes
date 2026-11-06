@@ -36,9 +36,18 @@ const jsonLd = {
 	author: {
 		"@type": "Person",
 		name: profileConfig.name,
-		url: Astro.site,
+		url: new URL("about/", new URL(import.meta.env.BASE_URL, Astro.site)).href,
 	},
+	publisher: {
+		"@type": "Organization",
+		name: siteConfig.title,
+		logo: { "@type": "ImageObject", url: new URL("og-default.png", new URL(import.meta.env.BASE_URL, Astro.site)).href },
+	},
+	image: new URL("og-default.png", new URL(import.meta.env.BASE_URL, Astro.site)).href,
+	url: new URL(Astro.url.pathname, Astro.site).href,
+	mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
 	datePublished: formatDateToYYYYMMDD(entry.data.published),
+	dateModified: formatDateToYYYYMMDD(entry.data.updated || entry.data.published),
 	inLanguage: entry.data.lang
 		? entry.data.lang.replace("_", "-")
 		: siteConfig.lang.replace("_", "-"),
@@ -71,7 +80,7 @@ const jsonLd = {
 
             <!-- title -->
             <div class="relative onload-animation">
-                <div
+                <h1
                     data-pagefind-body data-pagefind-weight="10" data-pagefind-meta="title"
                     class="transition w-full block font-bold mb-3
                     text-3xl md:text-[2.25rem]/[2.75rem]
@@ -80,7 +89,7 @@ const jsonLd = {
                     before:absolute before:top-[0.75rem] before:left-[-1.125rem]
                 ">
                     {entry.data.title}
-                </div>
+                </h1>
             </div>
 
             <!-- metadata -->

@@ -22,6 +22,8 @@ The topics won't be limited to one field. If I built something because I needed 
 
 ## Up next
 
-The first tool I'll write about is a helper program for managing an Amazon seller account — the day-to-day checks and number-crunching that eat up time when you sell on Amazon.
+The first tool on the blog is SellerMorning, a helper program for managing an Amazon seller account — the day-to-day checks and number-crunching that eat up time when you sell on Amazon. The 15-part series runs from registering as a seller through inventory, ads, listings and account health to safe automation with Amazon's official APIs. Start with [Part 1: How to Become an Amazon Seller](../amazon-seller-1-getting-started/).
+
+Later I'll also cover tools built outside Amazon, such as ones for running stores on Coupang and Naver Smart Store.
 
 This blog is available in English and Korean. Use the language switch at the top of any page.

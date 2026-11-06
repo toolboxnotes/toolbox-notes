@@ -15,8 +15,9 @@ if (!aboutPost) {
 
 const { Content } = await render(aboutPost);
 const privacyTitle = SITE_LANG === "ko" ? "개인정보처리방침" : "Privacy Policy";
+const pageDescription = SITE_LANG === "ko" ? "Toolbox Notes 개인정보처리방침: 브라우저 저장소, Google AdSense 광고 쿠키, 호스팅, 문의 메일 처리 방식을 안내합니다." : "Toolbox Notes privacy policy: browser storage, Google AdSense advertising cookies, hosting and how emails you send are handled.";
 ---
-<MainGridLayout title={privacyTitle} description={privacyTitle}>
+<MainGridLayout title={privacyTitle} description={pageDescription}>
     <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
         <div class="card-base z-10 px-9 py-6 relative w-full ">
             <Markdown class="mt-2">
