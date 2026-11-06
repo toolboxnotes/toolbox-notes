@@ -30,6 +30,11 @@ const text = {
 export const SITE_DISCLAIMER = text.disclaimer;
 export const CONTACT_EMAIL = "toolbox@toolboxnotes.com";
 
+// Google AdSense: paste your publisher ID here once you have it (looks like "ca-pub-1234567890123456").
+// When set, the AdSense script is added to every page and ads.txt is generated at the site root.
+// Keep this value in sync with ADSENSE_CLIENT in scripts/build-i18n.mjs.
+export const ADSENSE_CLIENT = "";
+
 export const siteConfig: SiteConfig = {
 	title: "Toolbox Notes",
 	subtitle: text.subtitle,

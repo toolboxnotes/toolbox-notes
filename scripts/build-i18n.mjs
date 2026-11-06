@@ -18,6 +18,8 @@ import { fileURLToPath } from "node:url";
 
 const SITE_URL = "https://toolboxnotes.com"; // keep in sync with astro.config.mjs
 const LANGS = ["en", "ko"];
+// Google AdSense publisher ID, e.g. "ca-pub-1234567890123456" (keep in sync with src/config.ts)
+const ADSENSE_CLIENT = "";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const env = {
@@ -87,6 +89,7 @@ fs.writeFileSync(
 <link rel="alternate" hreflang="ko" href="${SITE_URL}/ko/">
 <link rel="alternate" hreflang="x-default" href="${SITE_URL}/en/">
 <link rel="icon" href="/en/favicon/favicon-light-32.png">
+${ADSENSE_CLIENT ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}" crossorigin="anonymous"></script>` : ""}
 <script>
 (function () {
   var lang = null;
@@ -150,5 +153,10 @@ Disallow: /ko/_astro/
 ${LANGS.map((l) => `Sitemap: ${SITE_URL}/${l}/sitemap-index.xml`).join("\n")}
 `,
 );
+
+if (ADSENSE_CLIENT) {
+	const pub = ADSENSE_CLIENT.replace(/^ca-/, "");
+	fs.writeFileSync(path.join(dist, "ads.txt"), `google.com, ${pub}, DIRECT, f08c47fec0942fa0\n`);
+}
 
 console.log("\n[i18n] done: dist/en, dist/ko + root index.html, 404.html, robots.txt");

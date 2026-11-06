@@ -4,7 +4,7 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 import ConfigCarrier from "@components/ConfigCarrier.astro";
-import { profileConfig, siteConfig } from "@/config";
+import { ADSENSE_CLIENT, profileConfig, siteConfig } from "@/config";
 import {
 	AUTO_MODE,
 	BANNER_HEIGHT,
@@ -150,6 +150,9 @@ const bannerOffset =
 
 		<link rel="alternate" type="application/rss+xml" title={profileConfig.name} href={new URL(url("/rss.xml"), Astro.site).href}/>
 
+		{ADSENSE_CLIENT && (
+			<script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`} crossorigin="anonymous"></script>
+		)}
 		<link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href}/>
 		<!-- Bilingual alternates: same path under /en/ and /ko/ -->
 		<link rel="alternate" hreflang="en" href={new URL(`/en/${langRestPath}`, Astro.site).href}/>
