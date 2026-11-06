@@ -12,7 +12,7 @@ This blog is available in English and Korean. Use the language button at the top
 
 ## About me
 
-I'm a developer with more than 10 years of programming experience and more than 5 years of running online stores — listing products, handling sales, and running ads and promotions. Along the way I ran into a lot of repetitive work. Now I combine that hands-on experience with development skills to build small programs that are actually useful in day-to-day work.
+I'm a developer with more than 10 years of programming experience and more than 5 years of running online stores on Amazon, Coupang and Naver Smart Store — listing products, handling sales, and running ads and promotions across a wide range of product categories. Along the way I ran into a lot of repetitive work. Now I combine that hands-on experience with development skills to build small programs that are actually useful in day-to-day work.
 
 ## The program we write about
 
