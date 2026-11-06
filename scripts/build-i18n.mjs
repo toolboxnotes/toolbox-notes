@@ -20,6 +20,8 @@ const SITE_URL = "https://toolboxnotes.com"; // keep in sync with astro.config.m
 const LANGS = ["en", "ko"];
 // Google AdSense publisher ID, e.g. "ca-pub-1234567890123456" (keep in sync with src/config.ts)
 const ADSENSE_CLIENT = "";
+// Naver Search Advisor HTML-tag verification code (the content="..." value)
+const NAVER_SITE_VERIFICATION = "";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const env = {
@@ -89,6 +91,7 @@ fs.writeFileSync(
 <link rel="alternate" hreflang="ko" href="${SITE_URL}/ko/">
 <link rel="alternate" hreflang="x-default" href="${SITE_URL}/en/">
 <link rel="icon" href="/en/favicon/favicon-light-32.png">
+${NAVER_SITE_VERIFICATION ? `<meta name="naver-site-verification" content="${NAVER_SITE_VERIFICATION}">` : ""}
 ${ADSENSE_CLIENT ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}" crossorigin="anonymous"></script>` : ""}
 <script>
 (function () {
