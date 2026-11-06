@@ -90,7 +90,9 @@ fs.writeFileSync(
 <link rel="alternate" hreflang="en" href="${SITE_URL}/en/">
 <link rel="alternate" hreflang="ko" href="${SITE_URL}/ko/">
 <link rel="alternate" hreflang="x-default" href="${SITE_URL}/en/">
-<link rel="icon" href="/en/favicon/favicon-light-32.png">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/en/favicon/favicon-light-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/en/favicon/favicon-light-180.png">
 ${NAVER_SITE_VERIFICATION ? `<meta name="naver-site-verification" content="${NAVER_SITE_VERIFICATION}">` : ""}
 ${ADSENSE_CLIENT ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}" crossorigin="anonymous"></script>` : ""}
 <script>
@@ -155,6 +157,9 @@ Allow: /
 ${LANGS.map((l) => `Sitemap: ${SITE_URL}/${l}/sitemap-index.xml`).join("\n")}
 `,
 );
+
+// browsers and search engines request /favicon.ico at the site root
+fs.copyFileSync(path.join(dist, "en", "favicon.ico"), path.join(dist, "favicon.ico"));
 
 if (ADSENSE_CLIENT) {
 	const pub = ADSENSE_CLIENT.replace(/^ca-/, "");
