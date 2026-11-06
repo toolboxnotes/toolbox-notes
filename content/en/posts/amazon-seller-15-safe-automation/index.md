@@ -45,6 +45,8 @@ Over 15 parts, this series went from becoming an Amazon seller to the daily chec
 
 We still use SellerMorning every day and keep improving it. New features and what we learn along the way will keep showing up here.
 
+Interested in SellerMorning or want to try it? Email us at **[toolbox@toolboxnotes.com](mailto:toolbox@toolboxnotes.com)**.
+
 ---
 
 **Amazon seller series**

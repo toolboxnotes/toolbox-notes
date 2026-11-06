@@ -1,6 +1,6 @@
 # 개인정보처리방침
 
-_최종 수정일: 2026년 11월 5일_
+_최종 수정일: 2026년 11월 6일_
 
 Toolbox Notes(이하 "본 사이트")는 방문자의 개인정보를 중요하게 생각합니다. 본 방침은 본 사이트가 어떤 정보를 어떻게 다루는지 설명합니다.
 
@@ -21,3 +21,11 @@ Toolbox Notes(이하 "본 사이트")는 방문자의 개인정보를 중요하�
 ## 호스팅 및 통계
 
 본 사이트는 Cloudflare를 통해 제공되며, Cloudflare는 보안 및 서비스 운영을 위해 IP 주소 등 기본적인 접속 정보를 처리할 수 있습니다. 방문 통계 도구를 도입하는 경우 이 페이지에 안내하겠습니다.
+
+## 문의 메일
+
+[toolbox@toolboxnotes.com](mailto:toolbox@toolboxnotes.com)으로 보내 주신 메일 주소와 내용은 답장을 위해서만 사용하며, 제3자에게 제공하지 않습니다.
+
+## 문의처
+
+개인정보 관련 문의: [toolbox@toolboxnotes.com](mailto:toolbox@toolboxnotes.com)

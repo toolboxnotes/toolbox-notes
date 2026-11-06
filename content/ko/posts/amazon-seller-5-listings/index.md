@@ -79,6 +79,8 @@ Listing 점검은 네 가지 자료를 보기만 하고 비교합니다. 전체 
 
 SellerMorning은 지금 저희가 매일 쓰면서 계속 다듬고 있는 프로그램입니다. 새 기능과 운영하며 배운 점은 이 블로그에 계속 기록하겠습니다. 다음 6편부터는 계정 상태, FBA 재고, 주문·반품처럼 매일 확인할 항목을 하나씩 깊게 다룹니다.
 
+SellerMorning에 관심이 있거나 사용해 보고 싶다면 [toolbox@toolboxnotes.com](mailto:toolbox@toolboxnotes.com)으로 메일을 보내 주세요.
+
 ---
 
 **아마존 셀러 시리즈**

@@ -31,7 +31,7 @@ const SITE_LANG = process.env.SITE_LANG === "ko" ? "ko" : "en";
 // https://astro.build/config
 export default defineConfig({
 	// Change this when you add a custom domain (also update scripts/build-i18n.mjs)
-	site: "https://toolbox-notes.pages.dev/",
+	site: "https://toolboxnotes.com/",
 	base: `/${SITE_LANG}/`,
 	outDir: `./dist/${SITE_LANG}`,
 	trailingSlash: "always",

@@ -17,12 +17,18 @@ const text = {
 	en: {
 		subtitle: "Small tools, built for convenience",
 		bio: "Notes on the little programs I build to make everyday work easier.",
+		disclaimer:
+			"Toolbox Notes is not affiliated with or endorsed by Amazon.com, Inc. or its affiliates. Amazon, Seller Central and related marks are trademarks of Amazon.com, Inc. or its affiliates.",
 	},
 	ko: {
 		subtitle: "편하려고 만든 작은 도구들",
 		bio: "일상 업무를 편하게 만들기 위해 직접 만든 작은 프로그램들의 기록.",
+		disclaimer:
+			"Toolbox Notes는 Amazon.com, Inc. 및 그 계열사와 관련이 없으며, 그 후원이나 승인을 받지 않았습니다. Amazon, Seller Central 및 관련 표장은 Amazon.com, Inc. 또는 그 계열사의 상표입니다.",
 	},
 }[SITE_LANG];
+export const SITE_DISCLAIMER = text.disclaimer;
+export const CONTACT_EMAIL = "toolbox@toolboxnotes.com";
 
 export const siteConfig: SiteConfig = {
 	title: "Toolbox Notes",
@@ -61,6 +67,11 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
+		{
+			name: SITE_LANG === "ko" ? "문의" : "Contact",
+			url: "/contact/", // base path (/en/ or /ko/) is added automatically
+			external: false,
+		},
 	],
 };
 

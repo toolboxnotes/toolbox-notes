@@ -1,6 +1,6 @@
 # Privacy Policy
 
-_Last updated: November 5, 2026_
+_Last updated: November 6, 2026_
 
 Toolbox Notes ("this site") respects your privacy. This page explains what information this site handles and how.
 
@@ -21,3 +21,11 @@ You can opt out of personalized advertising in [Google Ads Settings](https://ads
 ## Hosting and analytics
 
 This site is served by Cloudflare, which may process basic connection data such as IP addresses for security and delivery. If an analytics tool is added, it will be disclosed on this page.
+
+## Emails you send us
+
+If you email [toolbox@toolboxnotes.com](mailto:toolbox@toolboxnotes.com), your address and message are used only to reply to you and are never shared with third parties.
+
+## Contact
+
+For privacy questions: [toolbox@toolboxnotes.com](mailto:toolbox@toolboxnotes.com)

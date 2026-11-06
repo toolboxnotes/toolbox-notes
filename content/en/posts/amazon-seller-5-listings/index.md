@@ -79,6 +79,8 @@ Anyone can become an Amazon seller, but as your catalog grows, success comes dow
 
 SellerMorning is the program we use every day and keep improving. We will keep writing up new features and what we learn along the way here. From part 6 on, we go deeper into each daily check: account health, FBA inventory, orders and returns, and more.
 
+Interested in SellerMorning or want to try it? Email us at **[toolbox@toolboxnotes.com](mailto:toolbox@toolboxnotes.com)**.
+
 ---
 
 **Amazon seller series**

@@ -16,7 +16,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-const SITE_URL = "https://toolbox-notes.pages.dev"; // keep in sync with astro.config.mjs
+const SITE_URL = "https://toolboxnotes.com"; // keep in sync with astro.config.mjs
 const LANGS = ["en", "ko"];
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");

@@ -45,6 +45,8 @@ API로 받을 수 없는 화면만 브라우저로 열어 내용을 읽기만 �
 
 SellerMorning은 지금도 매일 쓰면서 다듬고 있습니다. 새 기능과 운영하며 배운 점은 이 블로그에 계속 기록하겠습니다.
 
+SellerMorning에 관심이 있거나 사용해 보고 싶다면 [toolbox@toolboxnotes.com](mailto:toolbox@toolboxnotes.com)으로 메일을 보내 주세요.
+
 ---
 
 **아마존 셀러 시리즈**

@@ -4,7 +4,7 @@ Small tools, built for convenience. / 편하려고 만든 작은 도구들.
 
 A bilingual (English / Korean) blog based on the [Fuwari](https://github.com/saicaca/fuwari) theme (MIT) for [Astro](https://astro.build), deployed on Cloudflare Pages.
 
-- Live: https://toolbox-notes.pages.dev
+- Live: https://toolboxnotes.com
 - `/` sends visitors to `/ko/` or `/en/` based on their saved choice or browser language
 - The translate button in the navbar switches to the same page in the other language (or that language's home page if there is no translation)
 
