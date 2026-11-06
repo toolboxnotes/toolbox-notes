@@ -65,3 +65,5 @@ FBA 창고에서는 재고가 분실되거나 파손되기도 하고, 고객에�
 13. [가격을 바꾸기 전에 이익부터](../amazon-seller-13-fees-profit/)
 14. [아침 15분 셀러 루틴](../amazon-seller-14-daily-routine/)
 15. [공식 API로 안전한 자동화](../amazon-seller-15-safe-automation/)
+
+*이 글은 개인 경험을 바탕으로 작성되었으며, Amazon.com, Inc. 및 그 계열사와 관련이 없습니다. 정책·수수료는 작성 시점 기준이니 최신 내용은 Seller Central에서 확인하세요.*

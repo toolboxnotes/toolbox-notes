@@ -10,6 +10,10 @@ It isn't tied to one topic — any tool I made because I needed it can show up h
 
 This blog is available in English and Korean. Use the language button at the top of the page to switch.
 
+## About me
+
+I'm a developer with more than 10 years of programming experience and more than 5 years of running online stores — listing products, handling sales, and running ads and promotions. Along the way I ran into a lot of repetitive work. Now I combine that hands-on experience with development skills to build small programs that are actually useful in day-to-day work.
+
 ## The program we write about
 
 Right now the blog centers on **SellerMorning**, a program that helps manage an Amazon seller account, with a series on the day-to-day work of running an Amazon store. It checks inventory, orders, ads, listings and account health every day, and shows the to-dos on one page, Today's Summary, each morning.

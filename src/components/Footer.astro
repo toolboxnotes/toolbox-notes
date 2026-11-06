@@ -1,6 +1,6 @@
 ---
 
-import { CONTACT_EMAIL, SITE_DISCLAIMER, SITE_LANG, profileConfig } from "../config";
+import { CONTACT_EMAIL, SITE_LANG, profileConfig } from "../config";
 import { url } from "../utils/url-utils";
 
 const currentYear = new Date().getFullYear();
@@ -20,5 +20,4 @@ const contactLabel = SITE_LANG === "ko" ? "문의" : "Contact";
         <a class="transition link text-[var(--primary)] font-medium" href={url('/contact/')}>{contactLabel}</a><br>
         <a class="transition link text-[var(--primary)] font-medium" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
     </div>
-    <div class="transition text-50 text-xs text-center mt-2 max-w-[40rem] opacity-80">{SITE_DISCLAIMER}</div>
 </div>

@@ -76,3 +76,5 @@ On the other side, a SKU whose current stock would take more than 180 days to se
 13. [Check profit before you change a price](../amazon-seller-13-fees-profit/)
 14. [A 15-minute morning routine](../amazon-seller-14-daily-routine/)
 15. [Safe automation with the official API](../amazon-seller-15-safe-automation/)
+
+*Based on personal experience. Not affiliated with or endorsed by Amazon.com, Inc. or its affiliates. Policies and fees are as of the time of writing — check Seller Central for the latest.*
