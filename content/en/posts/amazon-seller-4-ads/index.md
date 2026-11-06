@@ -1,6 +1,6 @@
 ---
-title: '[4/5] Your Amazon Ads at a Glance'
-published: 2026-11-03
+title: 'Amazon PPC Optimization: 4 Places Ad Spend Leaks and How to Fix Bids'
+published: 2026-10-14
 description: 'The ads feature finds searches that waste money, bids that eat profit and keywords you missed, and says exactly how to fix them.'
 tags: [Amazon, SellerMorning, Amazon Ads, PPC]
 category: Amazon Seller
@@ -74,8 +74,18 @@ The next post covers listing checks, and listing and price edits that apply only
 
 **Amazon seller series**
 
-1. [Anyone Can Become an Amazon Seller](../amazon-seller-1-getting-started/) — registering, listing and starting to sell
-2. [The Real Challenge After You Start Selling](../amazon-seller-2-real-challenge/) — you can't watch every product, and Seller Central is complex
-3. [Your Amazon Sales Data at a Glance](../amazon-seller-3-sales-data/) — inventory, orders and revenue
-4. **Your Amazon Ads at a Glance** — ad analysis and suggested actions (this post)
-5. [Your Amazon Listings at a Glance](../amazon-seller-5-listings/) — checks and edits
+1. [Anyone can become an Amazon seller](../amazon-seller-1-getting-started/)
+2. [The real challenge after you start](../amazon-seller-2-real-challenge/)
+3. [Sales data at a glance](../amazon-seller-3-sales-data/)
+4. **Ads at a glance** (this post)
+5. [Listings at a glance](../amazon-seller-5-listings/)
+6. [Keeping your account healthy](../amazon-seller-6-account-health/)
+7. [FBA inventory without stock-outs or overstock](../amazon-seller-7-fba-inventory/)
+8. [Finding problems in orders and returns](../amazon-seller-8-orders-returns/)
+9. [Reading conversion in business reports](../amazon-seller-9-business-reports/)
+10. [Finding drop-offs with Brand Analytics](../amazon-seller-10-brand-analytics/)
+11. [Guarding your Buy Box from hijackers](../amazon-seller-11-buy-box/)
+12. [Getting reimbursed for lost FBA inventory](../amazon-seller-12-fba-reimbursement/)
+13. [Check profit before you change a price](../amazon-seller-13-fees-profit/)
+14. [A 15-minute morning routine](../amazon-seller-14-daily-routine/)
+15. [Safe automation with the official API](../amazon-seller-15-safe-automation/)

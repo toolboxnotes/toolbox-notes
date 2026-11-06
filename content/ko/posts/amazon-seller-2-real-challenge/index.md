@@ -1,6 +1,6 @@
 ---
 title: '아마존 셀러 운영이 어려운 이유: 셀러 센트럴에서 매일 확인할 6가지'
-published: 2026-11-01
+published: 2026-10-10
 description: '상품이 늘면 판매보다 관리가 일이 됩니다. 매일 확인해야 할 여섯 가지와 Seller Central이 어려운 이유를 실제 화면으로 정리했습니다.'
 tags: [아마존, Seller Central, 셀러 운영]
 category: 아마존 셀러
@@ -76,8 +76,18 @@ FBA 재고 보고서를 받는 과정을 예로 들면 이렇습니다.
 
 **아마존 셀러 시리즈**
 
-1. [누구나 아마존 셀러가 될 수 있다](../amazon-seller-1-getting-started/) — 등록, 상품 등록, 판매 시작
-2. **셀러가 된 다음의 진짜 어려움** — 모든 상품을 늘 지켜볼 수 없고, Seller Central은 복잡하다 (이 글)
-3. [판매 데이터를 한눈에](../amazon-seller-3-sales-data/) — 재고·주문·매출 관리
-4. [광고를 한눈에](../amazon-seller-4-ads/) — 광고 분석과 조치 제안
-5. [리스팅을 한눈에](../amazon-seller-5-listings/) — 점검과 수정
+1. [누구나 아마존 셀러가 될 수 있다](../amazon-seller-1-getting-started/)
+2. **셀러가 된 다음의 진짜 어려움** (이 글)
+3. [판매 데이터를 한눈에](../amazon-seller-3-sales-data/)
+4. [광고를 한눈에](../amazon-seller-4-ads/)
+5. [리스팅을 한눈에](../amazon-seller-5-listings/)
+6. [계정 상태 지키기](../amazon-seller-6-account-health/)
+7. [FBA 재고, 품절도 과재고도 없게](../amazon-seller-7-fba-inventory/)
+8. [주문·반품 숫자에서 문제 찾기](../amazon-seller-8-orders-returns/)
+9. [비즈니스 보고서로 전환율 읽기](../amazon-seller-9-business-reports/)
+10. [Brand Analytics로 이탈 단계 찾기](../amazon-seller-10-brand-analytics/)
+11. [Buy Box와 합승 판매자 지키기](../amazon-seller-11-buy-box/)
+12. [잃어버린 FBA 재고 보상받기](../amazon-seller-12-fba-reimbursement/)
+13. [가격을 바꾸기 전에 이익부터](../amazon-seller-13-fees-profit/)
+14. [아침 15분 셀러 루틴](../amazon-seller-14-daily-routine/)
+15. [공식 API로 안전한 자동화](../amazon-seller-15-safe-automation/)

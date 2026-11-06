@@ -1,6 +1,6 @@
 ---
 title: '아마존 셀러 등록 방법 총정리: 계정 만들기부터 첫 판매까지'
-published: 2026-10-31
+published: 2026-10-08
 description: '신분증, 계좌, 상품 하나로 미국 아마존 셀러가 되는 방법. 계정 등록부터 상품 등록, 첫 판매까지 단계별로 정리했습니다.'
 tags: [아마존, 셀러 시작, FBA]
 category: 아마존 셀러
@@ -13,7 +13,7 @@ draft: false
 
 그래서 지금은 회사원이 퇴근 후 부업으로, 작은 공방이 자기 브랜드로, 한국의 제조사가 미국 시장으로 직접 아마존에 상품을 올립니다. 미국 아마존(Amazon.com)은 한국에서도 계정을 만들고 판매할 수 있습니다.
 
-이 시리즈는 5편으로 이어집니다.
+이 시리즈는 15편으로 이어집니다. 1~5편에서 셀러의 시작부터 데이터·광고·리스팅까지 큰 흐름을 잡고, 6~15편에서 매일 확인할 것을 하나씩 깊게 다룹니다. 전체 목록은 글 맨 아래에 있습니다.
 
 1. 누구나 아마존 셀러가 될 수 있다 — 등록, 상품 등록, 판매 시작(이 글)
 2. [셀러가 된 다음의 진짜 어려움](../amazon-seller-2-real-challenge/) — 모든 상품을 늘 지켜볼 수 없고, Seller Central은 복잡하다
@@ -93,8 +93,18 @@ FBA라면 주문이 들어오고 돈이 들어오기까지 셀러가 손댈 일�
 
 **아마존 셀러 시리즈**
 
-1. **누구나 아마존 셀러가 될 수 있다** — 등록, 상품 등록, 판매 시작 (이 글)
-2. [셀러가 된 다음의 진짜 어려움](../amazon-seller-2-real-challenge/) — 모든 상품을 늘 지켜볼 수 없고, Seller Central은 복잡하다
-3. [판매 데이터를 한눈에](../amazon-seller-3-sales-data/) — 재고·주문·매출 관리
-4. [광고를 한눈에](../amazon-seller-4-ads/) — 광고 분석과 조치 제안
-5. [리스팅을 한눈에](../amazon-seller-5-listings/) — 점검과 수정
+1. **누구나 아마존 셀러가 될 수 있다** (이 글)
+2. [셀러가 된 다음의 진짜 어려움](../amazon-seller-2-real-challenge/)
+3. [판매 데이터를 한눈에](../amazon-seller-3-sales-data/)
+4. [광고를 한눈에](../amazon-seller-4-ads/)
+5. [리스팅을 한눈에](../amazon-seller-5-listings/)
+6. [계정 상태 지키기](../amazon-seller-6-account-health/)
+7. [FBA 재고, 품절도 과재고도 없게](../amazon-seller-7-fba-inventory/)
+8. [주문·반품 숫자에서 문제 찾기](../amazon-seller-8-orders-returns/)
+9. [비즈니스 보고서로 전환율 읽기](../amazon-seller-9-business-reports/)
+10. [Brand Analytics로 이탈 단계 찾기](../amazon-seller-10-brand-analytics/)
+11. [Buy Box와 합승 판매자 지키기](../amazon-seller-11-buy-box/)
+12. [잃어버린 FBA 재고 보상받기](../amazon-seller-12-fba-reimbursement/)
+13. [가격을 바꾸기 전에 이익부터](../amazon-seller-13-fees-profit/)
+14. [아침 15분 셀러 루틴](../amazon-seller-14-daily-routine/)
+15. [공식 API로 안전한 자동화](../amazon-seller-15-safe-automation/)

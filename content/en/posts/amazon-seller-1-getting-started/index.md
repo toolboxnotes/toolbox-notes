@@ -1,6 +1,6 @@
 ---
-title: '[1/5] Anyone Can Become an Amazon Seller'
-published: 2026-10-31
+title: 'How to Become an Amazon Seller: From Sign-Up to Your First Sale'
+published: 2026-10-08
 description: 'How to become an Amazon.com seller with an ID, a bank account and one product: registering, listing and making your first sale, step by step.'
 tags: [Amazon, Getting Started, FBA]
 category: Amazon Seller
@@ -13,7 +13,7 @@ To become an Amazon seller you need an ID, a bank account, a credit card and one
 
 That is why office workers now sell as a side business, small workshops build their own brands, and manufacturers in Korea sell straight to US customers. You can open an Amazon.com seller account and sell from outside the US.
 
-This series has five parts.
+This series has 15 parts. Parts 1–5 cover the big picture, from getting started to data, ads and listings; parts 6–15 go deeper into each daily check. The full list is at the bottom of this post.
 
 1. Anyone can become an Amazon seller — registering, listing and starting to sell (this post)
 2. [The real challenge after you start](../amazon-seller-2-real-challenge/) — you can't watch every product, and Seller Central is complex
@@ -93,8 +93,18 @@ From part 3 on, we introduce the program we built and use ourselves to take over
 
 **Amazon seller series**
 
-1. **Anyone Can Become an Amazon Seller** — registering, listing and starting to sell (this post)
-2. [The Real Challenge After You Start Selling](../amazon-seller-2-real-challenge/) — you can't watch every product, and Seller Central is complex
-3. [Your Amazon Sales Data at a Glance](../amazon-seller-3-sales-data/) — inventory, orders and revenue
-4. [Your Amazon Ads at a Glance](../amazon-seller-4-ads/) — ad analysis and suggested actions
-5. [Your Amazon Listings at a Glance](../amazon-seller-5-listings/) — checks and edits
+1. **Anyone can become an Amazon seller** (this post)
+2. [The real challenge after you start](../amazon-seller-2-real-challenge/)
+3. [Sales data at a glance](../amazon-seller-3-sales-data/)
+4. [Ads at a glance](../amazon-seller-4-ads/)
+5. [Listings at a glance](../amazon-seller-5-listings/)
+6. [Keeping your account healthy](../amazon-seller-6-account-health/)
+7. [FBA inventory without stock-outs or overstock](../amazon-seller-7-fba-inventory/)
+8. [Finding problems in orders and returns](../amazon-seller-8-orders-returns/)
+9. [Reading conversion in business reports](../amazon-seller-9-business-reports/)
+10. [Finding drop-offs with Brand Analytics](../amazon-seller-10-brand-analytics/)
+11. [Guarding your Buy Box from hijackers](../amazon-seller-11-buy-box/)
+12. [Getting reimbursed for lost FBA inventory](../amazon-seller-12-fba-reimbursement/)
+13. [Check profit before you change a price](../amazon-seller-13-fees-profit/)
+14. [A 15-minute morning routine](../amazon-seller-14-daily-routine/)
+15. [Safe automation with the official API](../amazon-seller-15-safe-automation/)

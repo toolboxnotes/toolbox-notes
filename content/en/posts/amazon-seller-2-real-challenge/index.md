@@ -1,6 +1,6 @@
 ---
-title: '[2/5] The Real Challenge After You Start Selling'
-published: 2026-11-01
+title: 'Why Running an Amazon Store Gets Hard: 6 Things to Check Daily in Seller Central'
+published: 2026-10-10
 description: 'As your catalog grows, managing it becomes the real job. The six things to check every day, and why Seller Central makes it hard, with real screens.'
 tags: [Amazon, Seller Central, Operations]
 category: Amazon Seller
@@ -76,8 +76,18 @@ From the next post on, we go through its features one by one. First up: pulling 
 
 **Amazon seller series**
 
-1. [Anyone Can Become an Amazon Seller](../amazon-seller-1-getting-started/) — registering, listing and starting to sell
-2. **The Real Challenge After You Start Selling** — you can't watch every product, and Seller Central is complex (this post)
-3. [Your Amazon Sales Data at a Glance](../amazon-seller-3-sales-data/) — inventory, orders and revenue
-4. [Your Amazon Ads at a Glance](../amazon-seller-4-ads/) — ad analysis and suggested actions
-5. [Your Amazon Listings at a Glance](../amazon-seller-5-listings/) — checks and edits
+1. [Anyone can become an Amazon seller](../amazon-seller-1-getting-started/)
+2. **The real challenge after you start** (this post)
+3. [Sales data at a glance](../amazon-seller-3-sales-data/)
+4. [Ads at a glance](../amazon-seller-4-ads/)
+5. [Listings at a glance](../amazon-seller-5-listings/)
+6. [Keeping your account healthy](../amazon-seller-6-account-health/)
+7. [FBA inventory without stock-outs or overstock](../amazon-seller-7-fba-inventory/)
+8. [Finding problems in orders and returns](../amazon-seller-8-orders-returns/)
+9. [Reading conversion in business reports](../amazon-seller-9-business-reports/)
+10. [Finding drop-offs with Brand Analytics](../amazon-seller-10-brand-analytics/)
+11. [Guarding your Buy Box from hijackers](../amazon-seller-11-buy-box/)
+12. [Getting reimbursed for lost FBA inventory](../amazon-seller-12-fba-reimbursement/)
+13. [Check profit before you change a price](../amazon-seller-13-fees-profit/)
+14. [A 15-minute morning routine](../amazon-seller-14-daily-routine/)
+15. [Safe automation with the official API](../amazon-seller-15-safe-automation/)

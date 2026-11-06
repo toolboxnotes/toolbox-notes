@@ -1,6 +1,6 @@
 ---
 title: '아마존 리스팅 75자 제목 규칙 대응: 점검부터 안전한 일괄 수정까지'
-published: 2026-11-04
+published: 2026-10-16
 description: '75자 제목 규칙 등 리스팅 규칙을 한 번에 점검하고, 확인한 수정만 되돌릴 수 있게 적용하는 방법을 소개합니다.'
 tags: [아마존, SellerMorning, 리스팅, SP-API]
 category: 아마존 셀러
@@ -67,7 +67,7 @@ Listing 점검은 네 가지 자료를 보기만 하고 비교합니다. 전체 
 
 *실제 변경 기록. 적용 시각, 제출값 저장 확인, 상세 페이지 반영 확인 시각과 원래 값·새 값이 남습니다(브랜드·SKU·ASIN은 가림).*
 
-## 시리즈를 마치며
+## 1~5편을 마치며
 
 아마존 셀러가 되는 것은 누구나 할 수 있지만, 상품이 늘수록 성패는 ‘매일 얼마나 빨리 문제를 찾는가’에서 갈립니다. SellerMorning은 데이터·광고·리스팅을 매일 대신 확인하고, 셀러는 아침에 ‘오늘의 요약’ 한 장을 보고 결정만 하면 되도록 만들었습니다.
 
@@ -77,14 +77,24 @@ Listing 점검은 네 가지 자료를 보기만 하고 비교합니다. 전체 
 | FBA로 미국에 파는 해외 셀러 | 미국 시간·보고서 대기를 프로그램이 대신합니다 |
 | 광고비 비중이 큰 브랜드     | 매일 광고 제안과 효과 추적이 나옵니다         |
 
-SellerMorning은 지금 저희가 매일 쓰면서 계속 다듬고 있는 프로그램입니다. 새 기능과 운영하며 배운 점은 이 블로그에 계속 기록하겠습니다.
+SellerMorning은 지금 저희가 매일 쓰면서 계속 다듬고 있는 프로그램입니다. 새 기능과 운영하며 배운 점은 이 블로그에 계속 기록하겠습니다. 다음 6편부터는 계정 상태, FBA 재고, 주문·반품처럼 매일 확인할 항목을 하나씩 깊게 다룹니다.
 
 ---
 
 **아마존 셀러 시리즈**
 
-1. [누구나 아마존 셀러가 될 수 있다](../amazon-seller-1-getting-started/) — 등록, 상품 등록, 판매 시작
-2. [셀러가 된 다음의 진짜 어려움](../amazon-seller-2-real-challenge/) — 모든 상품을 늘 지켜볼 수 없고, Seller Central은 복잡하다
-3. [판매 데이터를 한눈에](../amazon-seller-3-sales-data/) — 재고·주문·매출 관리
-4. [광고를 한눈에](../amazon-seller-4-ads/) — 광고 분석과 조치 제안
-5. **리스팅을 한눈에** — 점검과 수정 (이 글)
+1. [누구나 아마존 셀러가 될 수 있다](../amazon-seller-1-getting-started/)
+2. [셀러가 된 다음의 진짜 어려움](../amazon-seller-2-real-challenge/)
+3. [판매 데이터를 한눈에](../amazon-seller-3-sales-data/)
+4. [광고를 한눈에](../amazon-seller-4-ads/)
+5. **리스팅을 한눈에** (이 글)
+6. [계정 상태 지키기](../amazon-seller-6-account-health/)
+7. [FBA 재고, 품절도 과재고도 없게](../amazon-seller-7-fba-inventory/)
+8. [주문·반품 숫자에서 문제 찾기](../amazon-seller-8-orders-returns/)
+9. [비즈니스 보고서로 전환율 읽기](../amazon-seller-9-business-reports/)
+10. [Brand Analytics로 이탈 단계 찾기](../amazon-seller-10-brand-analytics/)
+11. [Buy Box와 합승 판매자 지키기](../amazon-seller-11-buy-box/)
+12. [잃어버린 FBA 재고 보상받기](../amazon-seller-12-fba-reimbursement/)
+13. [가격을 바꾸기 전에 이익부터](../amazon-seller-13-fees-profit/)
+14. [아침 15분 셀러 루틴](../amazon-seller-14-daily-routine/)
+15. [공식 API로 안전한 자동화](../amazon-seller-15-safe-automation/)

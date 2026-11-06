@@ -1,6 +1,6 @@
 ---
 title: 'Toolbox Notes를 시작합니다'
-published: 2026-10-30
+published: 2026-10-06
 description: '이 블로그를 만든 이유: 일상 업무를 편하게 하려고 직접 만든 작은 도구들의 기록.'
 tags: [소개]
 category: 노트

@@ -1,6 +1,6 @@
 ---
-title: '[5/5] Your Amazon Listings at a Glance'
-published: 2026-11-04
+title: 'Amazon''s 75-Character Title Rule: How to Audit and Safely Bulk-Edit Listings'
+published: 2026-10-16
 description: 'Check every listing against rules like the 75-character title limit, then apply only the fixes you approve, with an undo for each.'
 tags: [Amazon, SellerMorning, Listings, SP-API]
 category: Amazon Seller
@@ -67,7 +67,7 @@ There are safeguards too. A price change over 30% or a price that loses money ne
 
 *A real change log: applied time, saved-value check, detail-page confirmation time, and the original and new values (brand, SKU and ASIN masked).*
 
-## Wrapping up the series
+## Wrapping up parts 1–5
 
 Anyone can become an Amazon seller, but as your catalog grows, success comes down to how fast you find problems each day. SellerMorning checks your data, ads and listings every day, so each morning you read one page, Today's Summary, and simply decide.
 
@@ -77,14 +77,24 @@ Anyone can become an Amazon seller, but as your catalog grows, success comes dow
 | Overseas sellers shipping to the US with FBA | The program handles US time zones and report waits for you |
 | Brands with a large ad budget                | Daily ad suggestions and tracking of their results         |
 
-SellerMorning is the program we use every day and keep improving. We will keep writing up new features and what we learn along the way here.
+SellerMorning is the program we use every day and keep improving. We will keep writing up new features and what we learn along the way here. From part 6 on, we go deeper into each daily check: account health, FBA inventory, orders and returns, and more.
 
 ---
 
 **Amazon seller series**
 
-1. [Anyone Can Become an Amazon Seller](../amazon-seller-1-getting-started/) — registering, listing and starting to sell
-2. [The Real Challenge After You Start Selling](../amazon-seller-2-real-challenge/) — you can't watch every product, and Seller Central is complex
-3. [Your Amazon Sales Data at a Glance](../amazon-seller-3-sales-data/) — inventory, orders and revenue
-4. [Your Amazon Ads at a Glance](../amazon-seller-4-ads/) — ad analysis and suggested actions
-5. **Your Amazon Listings at a Glance** — checks and edits (this post)
+1. [Anyone can become an Amazon seller](../amazon-seller-1-getting-started/)
+2. [The real challenge after you start](../amazon-seller-2-real-challenge/)
+3. [Sales data at a glance](../amazon-seller-3-sales-data/)
+4. [Ads at a glance](../amazon-seller-4-ads/)
+5. **Listings at a glance** (this post)
+6. [Keeping your account healthy](../amazon-seller-6-account-health/)
+7. [FBA inventory without stock-outs or overstock](../amazon-seller-7-fba-inventory/)
+8. [Finding problems in orders and returns](../amazon-seller-8-orders-returns/)
+9. [Reading conversion in business reports](../amazon-seller-9-business-reports/)
+10. [Finding drop-offs with Brand Analytics](../amazon-seller-10-brand-analytics/)
+11. [Guarding your Buy Box from hijackers](../amazon-seller-11-buy-box/)
+12. [Getting reimbursed for lost FBA inventory](../amazon-seller-12-fba-reimbursement/)
+13. [Check profit before you change a price](../amazon-seller-13-fees-profit/)
+14. [A 15-minute morning routine](../amazon-seller-14-daily-routine/)
+15. [Safe automation with the official API](../amazon-seller-15-safe-automation/)

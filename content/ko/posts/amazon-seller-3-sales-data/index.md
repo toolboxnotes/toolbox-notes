@@ -1,6 +1,6 @@
 ---
 title: '아마존 재고·주문·매출 관리, 매일 아침 한 장으로 끝내는 법'
-published: 2026-11-02
+published: 2026-10-12
 description: '재고·주문·매출 보고서를 모아 매일 아침 할 일을 한 장으로 보여 주는 SellerMorning의 데이터 기능을 소개합니다.'
 tags: [아마존, SellerMorning, 재고, 보고서]
 category: 아마존 셀러
@@ -73,8 +73,18 @@ draft: false
 
 **아마존 셀러 시리즈**
 
-1. [누구나 아마존 셀러가 될 수 있다](../amazon-seller-1-getting-started/) — 등록, 상품 등록, 판매 시작
-2. [셀러가 된 다음의 진짜 어려움](../amazon-seller-2-real-challenge/) — 모든 상품을 늘 지켜볼 수 없고, Seller Central은 복잡하다
-3. **판매 데이터를 한눈에** — 재고·주문·매출 관리 (이 글)
-4. [광고를 한눈에](../amazon-seller-4-ads/) — 광고 분석과 조치 제안
-5. [리스팅을 한눈에](../amazon-seller-5-listings/) — 점검과 수정
+1. [누구나 아마존 셀러가 될 수 있다](../amazon-seller-1-getting-started/)
+2. [셀러가 된 다음의 진짜 어려움](../amazon-seller-2-real-challenge/)
+3. **판매 데이터를 한눈에** (이 글)
+4. [광고를 한눈에](../amazon-seller-4-ads/)
+5. [리스팅을 한눈에](../amazon-seller-5-listings/)
+6. [계정 상태 지키기](../amazon-seller-6-account-health/)
+7. [FBA 재고, 품절도 과재고도 없게](../amazon-seller-7-fba-inventory/)
+8. [주문·반품 숫자에서 문제 찾기](../amazon-seller-8-orders-returns/)
+9. [비즈니스 보고서로 전환율 읽기](../amazon-seller-9-business-reports/)
+10. [Brand Analytics로 이탈 단계 찾기](../amazon-seller-10-brand-analytics/)
+11. [Buy Box와 합승 판매자 지키기](../amazon-seller-11-buy-box/)
+12. [잃어버린 FBA 재고 보상받기](../amazon-seller-12-fba-reimbursement/)
+13. [가격을 바꾸기 전에 이익부터](../amazon-seller-13-fees-profit/)
+14. [아침 15분 셀러 루틴](../amazon-seller-14-daily-routine/)
+15. [공식 API로 안전한 자동화](../amazon-seller-15-safe-automation/)
