@@ -21,7 +21,7 @@ const LANGS = ["en", "ko"];
 // Google AdSense publisher ID, e.g. "ca-pub-1234567890123456" (keep in sync with src/config.ts)
 const ADSENSE_CLIENT = "";
 // Naver Search Advisor HTML-tag verification code (the content="..." value)
-const NAVER_SITE_VERIFICATION = "";
+const NAVER_SITE_VERIFICATION = "8bae01a012bc506041e0bfb5f5f459a00d5d2009";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const env = {
