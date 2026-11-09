@@ -151,7 +151,8 @@ fs.writeFileSync(
 
 fs.writeFileSync(
 	path.join(dist, "robots.txt"),
-	`User-agent: *
+	`#DaumWebMasterTool:92e558357e5bc2ee589b4f8f55158e148de86d53331a356bcf65660f544a8ba4:fjbPToQo9CIdABBLcO2OJw==
+User-agent: *
 Allow: /
 
 ${LANGS.map((l) => `Sitemap: ${SITE_URL}/${l}/sitemap-index.xml`).join("\n")}
