@@ -1,6 +1,6 @@
 # Privacy Policy
 
-_Last updated: November 6, 2026_
+_Last updated: November 9, 2026_
 
 Toolbox Notes ("this site") respects your privacy. This page explains what information this site handles and how.
 
@@ -20,7 +20,9 @@ You can opt out of personalized advertising in [Google Ads Settings](https://ads
 
 ## Hosting and analytics
 
-This site is served by Cloudflare, which may process basic connection data such as IP addresses for security and delivery. If an analytics tool is added, it will be disclosed on this page.
+This site is served by Cloudflare, which may process basic connection data such as IP addresses for security and delivery.
+
+This site uses Google Analytics 4 to understand how visitors use it, such as which pages are viewed, how visitors arrive, and roughly which country and device they use. Google Analytics uses cookies and does not give this site your name or email address. You can opt out with the [Google Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout). See [how Google uses information from sites that use its services](https://policies.google.com/technologies/partner-sites) for details.
 
 ## Emails you send us
 

@@ -4,7 +4,7 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 import ConfigCarrier from "@components/ConfigCarrier.astro";
-import { ADSENSE_CLIENT, profileConfig, siteConfig } from "@/config";
+import { ADSENSE_CLIENT, GA_MEASUREMENT_ID, profileConfig, siteConfig } from "@/config";
 import {
 	AUTO_MODE,
 	BANNER_HEIGHT,
@@ -159,6 +159,18 @@ const bannerOffset =
 
 		{ADSENSE_CLIENT && (
 			<script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`} crossorigin="anonymous"></script>
+		)}
+		{GA_MEASUREMENT_ID && (
+			<script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}></script>
+		)}
+		{GA_MEASUREMENT_ID && (
+			<script is:inline define:vars={{ gaId: GA_MEASUREMENT_ID }}>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				window.gtag = gtag;
+				gtag('js', new Date());
+				gtag('config', gaId);
+			</script>
 		)}
 		<link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href}/>
 		<!-- Bilingual alternates: same path under /en/ and /ko/ -->

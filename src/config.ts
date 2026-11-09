@@ -35,6 +35,9 @@ export const CONTACT_EMAIL = "toolbox@toolboxnotes.com";
 // Keep this value in sync with ADSENSE_CLIENT in scripts/build-i18n.mjs.
 export const ADSENSE_CLIENT = "ca-pub-7313885773782147";
 
+// Google Analytics 4 measurement ID. Leave empty to disable.
+export const GA_MEASUREMENT_ID = "G-SGKRRGT6TX";
+
 export const siteConfig: SiteConfig = {
 	title: "Toolbox Notes",
 	subtitle: text.subtitle,
