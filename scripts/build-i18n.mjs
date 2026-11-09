@@ -159,6 +159,16 @@ ${LANGS.map((l) => `Sitemap: ${SITE_URL}/${l}/sitemap-index.xml`).join("\n")}
 `,
 );
 
+// Old RSS feeds had relative post links that resolved to /<slug>/ at the site root.
+// Send those (and any other root-level post URL) to the Korean post with a 301.
+{
+	const slugs = fs
+		.readdirSync(path.join(root, "content", "ko", "posts"))
+		.map((f) => f.replace(/\.md$/, ""));
+	const lines = slugs.flatMap((s) => [`/${s}/ /ko/posts/${s}/ 301`, `/${s} /ko/posts/${s}/ 301`]);
+	fs.writeFileSync(path.join(dist, "_redirects"), `${lines.join("\n")}\n`);
+}
+
 // browsers and search engines request /favicon.ico at the site root
 fs.copyFileSync(path.join(dist, "en", "favicon.ico"), path.join(dist, "favicon.ico"));
 

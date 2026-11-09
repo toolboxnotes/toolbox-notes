@@ -27,13 +27,28 @@ export async function GET(context: APIContext) {
 			const content =
 				typeof post.body === "string" ? post.body : String(post.body || "");
 			const cleanedContent = stripInvalidXmlChars(content);
+			const link = url(`/posts/${post.slug}/`);
+			// Relative links/images in posts (../other-post/, ./image.png) must be made
+			// absolute, otherwise feed readers and crawlers resolve them against
+			// /<lang>/rss.xml and end up at non-existent root URLs.
+			const base = new URL(link, context.site ?? "https://toolboxnotes.com");
+			const absolutize = (attr: string) => (tagName: string, attribs: Record<string, string>) => {
+				const v = attribs[attr];
+				if (v && !/^([a-z][a-z0-9+.-]*:|#)/i.test(v)) {
+					try {
+						attribs[attr] = new URL(v, base).href;
+					} catch {}
+				}
+				return { tagName, attribs };
+			};
 			return {
 				title: post.data.title,
 				pubDate: post.data.published,
 				description: post.data.description || "",
-				link: url(`/posts/${post.slug}/`),
+				link,
 				content: sanitizeHtml(parser.render(cleanedContent), {
 					allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
+					transformTags: { a: absolutize("href"), img: absolutize("src") },
 				}),
 			};
 		}),
