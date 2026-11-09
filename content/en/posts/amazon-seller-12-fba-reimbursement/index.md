@@ -46,6 +46,8 @@ The hard part: a ‘lost’ event is often offset by a later ‘found’, or rei
 
 *The finance and reimbursements Summary: claimable lost or damaged units and refunds without returns, with deadlines and how to file (SKUs, amounts and Reference IDs masked; the program's reports are in Korean).*
 
+> For a hands-on walkthrough with real Seller Central screens — from spotting lost units to filing and confirming the payout — see [FBA missing inventory: a step-by-step claim guide](../amazon-fba-lost-inventory-claim/).
+
 ---
 
 **Amazon seller series**
