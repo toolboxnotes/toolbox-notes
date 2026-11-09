@@ -73,6 +73,19 @@ for (const lang of LANGS) {
 	prepareContent(lang);
 	run("astro build", { SITE_LANG: lang });
 	run(`pagefind --site dist/${lang}`);
+	// Also serve post images at their plain path next to the post
+	// (/<lang>/posts/<slug>/image.png) so images in the RSS feed resolve.
+	const postsSrc = path.join(root, "content", lang, "posts");
+	for (const slug of fs.readdirSync(postsSrc)) {
+		const dir = path.join(postsSrc, slug);
+		if (!fs.statSync(dir).isDirectory()) continue;
+		for (const f of fs.readdirSync(dir)) {
+			if (!/\.(png|jpe?g|gif|webp|svg)$/i.test(f)) continue;
+			const out = path.join(root, "dist", lang, "posts", slug);
+			fs.mkdirSync(out, { recursive: true });
+			fs.copyFileSync(path.join(dir, f), path.join(out, f));
+		}
+	}
 }
 
 // ---- root files ----
