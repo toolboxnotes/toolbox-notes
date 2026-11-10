@@ -183,5 +183,5 @@ Email: [toolbox@toolboxnotes.com](mailto:toolbox@toolboxnotes.com)
 
 **Related reading**
 
-- [Starting Toolbox Notes](../hello-toolbox-notes/)
-- [An Amazon seller's daily routine: a 15-minute morning checklist](../amazon-seller-14-daily-routine/)
+- [Hello, Toolbox Notes](../hello-toolbox-notes/)
+- [A 15-Minute Daily Routine for Amazon Sellers](../amazon-seller-14-daily-routine/)

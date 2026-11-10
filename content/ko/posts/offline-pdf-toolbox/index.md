@@ -186,5 +186,5 @@ PDF 도구상자는 아직 정식 배포 전입니다. 써 보고 싶으신 분�
 
 **함께 읽으면 좋은 글**
 
-- [Toolbox Notes를 시작하며](../hello-toolbox-notes/)
+- [Toolbox Notes를 시작합니다](../hello-toolbox-notes/)
 - [아마존 셀러 하루 루틴: 아침 15분으로 끝내는 매일 점검 리스트](../amazon-seller-14-daily-routine/)
