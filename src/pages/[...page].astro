@@ -5,7 +5,7 @@ import PostPage from "../components/PostPage.astro";
 import { PAGE_SIZE } from "../constants/constants";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
 import { getSortedPosts } from "../utils/content-utils";
-import { siteConfig } from "../config";
+import { SITE_LANG, siteConfig } from "../config";
 
 export const getStaticPaths = (async ({ paginate }) => {
 	const allBlogPosts = await getSortedPosts();
@@ -16,9 +16,22 @@ export const getStaticPaths = (async ({ paginate }) => {
 const { page } = Astro.props;
 
 const len = page.data.length;
+// Page 2+ get their own title and description so list pages aren't duplicates of the home page
+const pageTitle =
+	page.currentPage > 1
+		? SITE_LANG === "ko"
+			? `${siteConfig.subtitle} (${page.currentPage}페이지)`
+			: `${siteConfig.subtitle} (page ${page.currentPage})`
+		: undefined;
+const pageDescription =
+	page.currentPage > 1
+		? SITE_LANG === "ko"
+			? `Toolbox Notes 전체 글 목록 ${page.currentPage}/${page.lastPage}페이지: 아마존 셀러 운영과 업무 자동화 도구에 관한 글.`
+			: `All Toolbox Notes posts, page ${page.currentPage} of ${page.lastPage}: Amazon seller operations and small automation tools.`
+		: undefined;
 ---
 
-<MainGridLayout>
+<MainGridLayout title={pageTitle} description={pageDescription}>
     <h1 class="sr-only">{siteConfig.title} - {siteConfig.subtitle}</h1>
     <PostPage page={page}></PostPage>
     <Pagination class="mx-auto onload-animation" page={page} style={`animation-delay: calc(var(--content-delay) + ${(len)*50}ms)`}></Pagination>
