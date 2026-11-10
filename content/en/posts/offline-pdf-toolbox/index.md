@@ -20,7 +20,7 @@ This post walks through what PDF Toolbox can do, with real screenshots. If you'd
 An all-in-one PDF tool that works **with no install, no internet and no uploads**.
 
 - **It works offline.** Everything happens on your computer and nothing is uploaded to any server. Turn off Wi-Fi and it keeps working.
-- **Nothing to install.** The whole app is a single HTML file (about 19 MB). On Windows, double-click `PDF Toolbox.exe`; on a Mac, `PDF Toolbox.app`. It opens in its own window.
+- **Nothing to install.** The whole app is a single, lightweight HTML file. On Windows, double-click `PDF Toolbox.exe`; on a Mac, `PDF Toolbox.app`. It opens in its own window.
 - **The everyday tools in one place.** 23 tools, from merge, split and compress to PDF ↔ Office conversion, OCR, signing and password protection. The interface is in English, Korean and Chinese.
 
 ## What bugged me about online PDF converters
@@ -136,7 +136,7 @@ When a revised contract arrives, you don't have to reread the whole thing. Compa
 
 ## Fun things I learned building it
 
-- **It all fits in 19 MB.** The OCR engine, Korean, English and Chinese language data, the libraries that write Word, Excel and PowerPoint files, and encryption all live in one HTML file. You can carry it around on a USB stick.
+- **It all fits in one small file.** The OCR engine, Korean, English and Chinese language data, the libraries that write Word, Excel and PowerPoint files, and encryption all live in one HTML file, and it's still only about the size of a few photos. You can carry it around on a USB stick.
 - **The encryption is hand-built.** AES-256 protection, and unlocking everything from old RC4 files to AES-256, uses only what's built into the browser.
 - **Korean OCR and spaces.** The recognition engine often splits one Korean word into several pieces, so I regroup them using the spacing of the whole line. Copied text comes out with natural spacing.
 - **A 33-page PDF to PowerPoint in about 4 seconds.** Faster than I expected.
