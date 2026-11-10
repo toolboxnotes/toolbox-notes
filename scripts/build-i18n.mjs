@@ -124,9 +124,21 @@ ${ADSENSE_CLIENT ? `<script async src="https://pagead2.googlesyndication.com/pag
   location.replace("/" + lang + "/");
 })();
 </script>
-<style>body{font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh;margin:0}a{margin:0 8px}</style>
+<style>body{font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh;margin:0;text-align:center}a{margin:0 6px}</style>
 </head>
-<body><p><a href="/en/">English</a> · <a href="/ko/">한국어</a></p></body>
+<body>
+<main>
+<h1>Toolbox Notes</h1>
+<p>Small tools, built for convenience. / 편하려고 만든 작은 도구들.</p>
+<nav aria-label="Language">
+<p><a href="/en/">English</a> · <a href="/ko/">한국어</a></p>
+</nav>
+<footer>
+<p><a href="/en/about/">About</a> · <a href="/en/privacy/">Privacy Policy</a> · <a href="/en/terms/">Terms of Use</a> · <a href="/en/contact/">Contact</a></p>
+<p><a href="/ko/about/">소개</a> · <a href="/ko/privacy/">개인정보처리방침</a> · <a href="/ko/terms/">이용약관</a> · <a href="/ko/contact/">문의</a></p>
+</footer>
+</main>
+</body>
 </html>
 `,
 );
