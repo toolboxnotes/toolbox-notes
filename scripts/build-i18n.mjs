@@ -202,4 +202,9 @@ if (ADSENSE_CLIENT) {
 	fs.writeFileSync(path.join(dist, "ads.txt"), `google.com, ${pub}, DIRECT, f08c47fec0942fa0\n`);
 }
 
+// IndexNow key file (proves site ownership to Bing, Naver, Yandex etc.).
+// Must live at the site root, so it is written here rather than in public/.
+const INDEXNOW_KEY = "de35e5e09a7cb964cc21e177ce55d08f";
+fs.writeFileSync(path.join(dist, `${INDEXNOW_KEY}.txt`), INDEXNOW_KEY);
+
 console.log("\n[i18n] done: dist/en, dist/ko + root index.html, 404.html, robots.txt");
