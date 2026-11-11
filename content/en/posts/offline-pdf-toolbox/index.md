@@ -1,7 +1,7 @@
 ---
-title: 'Offline PDF Converter for Windows and Mac: Merge PDFs, Convert PDF to Word and Run OCR Without Uploading'
+title: 'PDF Toolbox: Free Offline PDF Converter for Windows and Mac (Merge, PDF to Word, OCR, No Uploads)'
 published: 2026-11-10
-description: 'I built PDF Toolbox because I did not want to upload contracts and quotes to random websites. It merges, splits and compresses PDFs, converts PDF to Word, Excel and PowerPoint, runs OCR on scans, signs and encrypts files, 23 tools in all, entirely on your own computer with nothing to install.'
+description: 'I built PDF Toolbox because I did not want to upload contracts and quotes to random websites. It merges, splits and compresses PDFs, converts PDF to Word, Excel and PowerPoint, runs OCR on scans, signs and encrypts files, 23 tools in all, entirely on your own computer with nothing to install. Free to download from GitHub.'
 tags: [PDF, PDF Converter, Offline, OCR, PDF to Word, Merge PDF, PDF Toolbox]
 category: Tools
 draft: false
@@ -13,7 +13,10 @@ Search for "merge PDF" and you get a wall of free websites. They work. But every
 
 I have no way of knowing how quick that trip really is. So I decided to build **a PDF converter where the file never leaves my computer**. The result is **PDF Toolbox**.
 
-This post walks through what PDF Toolbox can do, with real screenshots. If you'd like to try it, see the last section.
+This post walks through what PDF Toolbox can do, with real screenshots. It's **free**, and you can download it right now.
+
+> **Download:** [Get the latest PDF Toolbox from GitHub](https://github.com/toolboxnotes/pdf-toolbox/releases/latest) (Windows, Mac, HTML)
+> Setup steps are in [Download and install](#download-and-install) below.
 
 ## In one sentence
 
@@ -148,13 +151,20 @@ When a revised contract arrives, you don't have to reread the whole thing. Compa
 - In PowerPoint to PDF, charts and SmartArt show up as empty boxes.
 - A computer with Chrome or Edge installed is recommended.
 
-## Getting started
+## Download and install
 
-| Platform | How to open |
-|---|---|
-| Windows | Double-click `PDF Toolbox.exe`. It opens in its own window with Chrome (or Edge if Chrome isn't installed), with no address bar. Keep it in the same folder as `PDF-Toolbox.html`. |
-| Mac | Unzip `PDF-Toolbox-Mac.zip` and move `PDF Toolbox.app` to Applications. The first time, right-click it and choose Open. |
-| Anything else | Open `PDF-Toolbox.html` in Chrome or Edge. |
+PDF Toolbox is free. Download it from the [GitHub releases page](https://github.com/toolboxnotes/pdf-toolbox/releases/latest). The source code is public in the same place ([toolboxnotes/pdf-toolbox](https://github.com/toolboxnotes/pdf-toolbox)).
+
+| Platform | File | How to open |
+|---|---|---|
+| Windows | `PDF-Toolbox-Windows-<version>.zip` | Unzip it and double-click `PDF Toolbox.exe`. It opens in its own window with Chrome (or Edge if Chrome isn't installed), with no address bar. Keep it in the same folder as `PDF-Toolbox.html`. |
+| Mac | `PDF-Toolbox-Mac-<version>.zip` | Unzip it and move `PDF Toolbox.app` to Applications. |
+| Anything else | `PDF-Toolbox-<version>.html` | Open it in Chrome or Edge. |
+
+**A warning on first launch is normal.** The app isn't code-signed yet, so you'll see one the first time:
+
+- **Windows**: if "Windows protected your PC" appears, click **More info → Run anyway**.
+- **Mac**: if it says the developer can't be verified, **right-click the app → Open**.
 
 You can switch the language in the top-right corner; the first time, it follows your browser's language.
 
@@ -166,16 +176,24 @@ Really. Open the app, turn off Wi-Fi and try it. Every tool keeps working.
 **Does it work on a Mac?**
 Yes. It isn't signed with an Apple developer certificate, so the first time you need to right-click and choose Open.
 
+**Is it really free?**
+Yes, for personal and business use. No sign-up either.
+
+**How do I get new versions?**
+New versions appear on the [GitHub releases page](https://github.com/toolboxnotes/pdf-toolbox/releases/latest). Click Watch → Custom → Releases on the repository to get notified.
+
 **Can I use it on my phone?**
 Not yet. It's for computers for now, and a web version is in the works.
 
-## Want to try PDF Toolbox?
+## Feedback and bug reports
 
-PDF Toolbox isn't publicly released yet. If you'd like to try it, email me. Including these three things helps me reply faster:
+[**Download PDF Toolbox (GitHub)**](https://github.com/toolboxnotes/pdf-toolbox/releases/latest)
 
-1. Your computer (Windows or Mac)
-2. What you mainly want to do (for example, scans to Excel, or signing contracts)
-3. Any feature you wish it had
+If something doesn't work or you wish it had a feature, let me know. Open a [GitHub issue](https://github.com/toolboxnotes/pdf-toolbox/issues) or email me. Including these three things helps me fix it faster:
+
+1. Your computer (Windows or Mac) and browser
+2. What you were trying to do (for example, scans to Excel, or signing a contract)
+3. The screen where it went wrong, or the feature you'd like
 
 Email: [toolbox@toolboxnotes.com](mailto:toolbox@toolboxnotes.com)
 

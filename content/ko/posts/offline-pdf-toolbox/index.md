@@ -1,8 +1,8 @@
 ---
-title: '업로드 없이 PDF 합치기·Word 변환·OCR까지: 오프라인 PDF 변환기 "PDF 도구상자" (Windows·Mac)'
+title: '업로드 없이 PDF 합치기·Word 변환·OCR까지: 무료 오프라인 PDF 변환기 PDF Toolbox (Windows·Mac)'
 published: 2026-11-10
-description: '계약서나 견적서를 온라인 사이트에 올리기 싫어서 직접 만든 오프라인 PDF 변환기입니다. PDF 합치기·나누기·압축, PDF를 Word·Excel·PPT로 변환, 스캔본 OCR, 서명, 암호 설정까지 23가지 기능을 설치 없이 내 컴퓨터에서 처리합니다.'
-tags: [PDF, PDF 변환기, 오프라인, OCR, PDF Word 변환, PDF 합치기, PDF 도구상자]
+description: '계약서나 견적서를 온라인 사이트에 올리기 싫어서 직접 만든 무료 오프라인 PDF 변환기 PDF Toolbox입니다. PDF 합치기·나누기·압축, PDF를 Word·Excel·PPT로 변환, 스캔본 OCR, 서명, 암호 설정까지 23가지 기능을 설치 없이 내 컴퓨터에서 처리합니다. GitHub에서 무료로 내려받을 수 있습니다.'
+tags: [PDF, PDF 변환기, 오프라인, OCR, PDF Word 변환, PDF 합치기, PDF Toolbox]
 category: 도구
 draft: false
 ---
@@ -11,9 +11,12 @@ draft: false
 
 > 이 파일, 지금 지구 반대편 어느 서버에 잠깐 들렀다 오는 거겠지?
 
-"잠깐"이 정말 잠깐인지는 저도 확인할 방법이 없습니다. 그래서 결론을 내렸습니다. **파일이 내 컴퓨터 밖으로 한 발짝도 나가지 않는 PDF 변환기**를 직접 만들자. 그렇게 나온 프로그램이 **PDF 도구상자(PDF Toolbox)** 입니다.
+"잠깐"이 정말 잠깐인지는 저도 확인할 방법이 없습니다. 그래서 결론을 내렸습니다. **파일이 내 컴퓨터 밖으로 한 발짝도 나가지 않는 PDF 변환기**를 직접 만들자. 그렇게 나온 프로그램이 **PDF Toolbox** 입니다.
 
-이 글에서는 PDF 도구상자로 무엇을 할 수 있는지, 실제 화면과 함께 소개합니다. 써 보고 싶다면 글 마지막의 방법으로 연락 주세요.
+이 글에서는 PDF Toolbox로 무엇을 할 수 있는지, 실제 화면과 함께 소개합니다. **무료**이고, 바로 내려받아 쓸 수 있습니다.
+
+> **다운로드:** [GitHub에서 PDF Toolbox 최신 버전 받기](https://github.com/toolboxnotes/pdf-toolbox/releases/latest) (Windows · Mac · HTML)
+> 설치 방법은 아래 [다운로드와 설치](#다운로드와-설치)에 정리했습니다.
 
 ## 한 줄 요약
 
@@ -27,7 +30,7 @@ draft: false
 
 온라인 변환 사이트가 나쁘다는 이야기는 아닙니다. 다만 매일 문서를 다루다 보니 아래 같은 순간이 쌓였습니다.
 
-| 상황 | 온라인 변환기 | PDF 도구상자 |
+| 상황 | 온라인 변환기 | PDF Toolbox |
 |---|---|---|
 | 민감한 문서(계약서, 견적서, 신분증 사본) | 서버에 업로드해야 함 | 내 컴퓨터에서만 처리 |
 | 100 MB짜리 스캔 파일 | 업로드·다운로드를 기다려야 함 | 업로드 시간 0초 |
@@ -52,7 +55,7 @@ draft: false
 
 어떤 도구를 써야 할지 몰라도 괜찮다는 뜻입니다. 파일이 먼저 말해 줍니다.
 
-![PDF 도구상자 홈 화면](./home.jpg)
+![PDF Toolbox 홈 화면](./home.jpg)
 
 *그림 1. 홈 화면: 분류별 도구 목록과 검색창*
 
@@ -148,13 +151,20 @@ PDF/A는 수십 년 뒤에도 똑같이 열리도록 만든 보관용 표준입�
 - PowerPoint → PDF에서 차트와 SmartArt는 빈 상자로 표시됩니다.
 - Chrome 또는 Edge가 설치된 컴퓨터를 권장합니다.
 
-## 사용 방법
+## 다운로드와 설치
 
-| 환경 | 실행 방법 |
-|---|---|
-| Windows | `PDF Toolbox.exe`를 더블클릭합니다. Chrome(없으면 Edge)으로 주소창 없는 별도 창이 열립니다. `PDF-Toolbox.html`과 같은 폴더에 두세요. |
-| Mac | `PDF-Toolbox-Mac.zip`의 압축을 풀고 `PDF Toolbox.app`을 응용 프로그램 폴더로 옮깁니다. 처음에는 마우스 오른쪽 버튼 → "열기"를 누르세요. |
-| 그 밖의 환경 | `PDF-Toolbox.html`을 Chrome이나 Edge로 엽니다. |
+PDF Toolbox는 무료이고, [GitHub 릴리스 페이지](https://github.com/toolboxnotes/pdf-toolbox/releases/latest)에서 내려받습니다. 소스 코드도 같은 곳([toolboxnotes/pdf-toolbox](https://github.com/toolboxnotes/pdf-toolbox))에 공개되어 있습니다.
+
+| 환경 | 받을 파일 | 실행 방법 |
+|---|---|---|
+| Windows | `PDF-Toolbox-Windows-버전.zip` | 압축을 풀고 `PDF Toolbox.exe`를 더블클릭합니다. Chrome(없으면 Edge)으로 주소창 없는 별도 창이 열립니다. `PDF-Toolbox.html`과 같은 폴더에 두세요. |
+| Mac | `PDF-Toolbox-Mac-버전.zip` | 압축을 풀고 `PDF Toolbox.app`을 응용 프로그램 폴더로 옮깁니다. |
+| 그 밖의 환경 | `PDF-Toolbox-버전.html` | Chrome이나 Edge로 엽니다. |
+
+**처음 실행할 때 경고가 나와도 괜찮습니다.** 아직 코드 서명을 하지 않은 프로그램이라 처음 한 번은 경고가 나옵니다.
+
+- **Windows**: "Windows의 PC 보호" 창이 뜨면 **추가 정보 → 실행**을 누르세요.
+- **Mac**: "개발자를 확인할 수 없습니다"가 뜨면 앱을 **마우스 오른쪽 버튼 → 열기**로 여세요.
 
 언어는 오른쪽 위에서 바꿀 수 있고, 처음에는 브라우저 언어에 맞춰 자동으로 선택됩니다.
 
@@ -169,16 +179,24 @@ PDF/A는 수십 년 뒤에도 똑같이 열리도록 만든 보관용 표준입�
 **한글 파일(HWP)도 되나요?**
 아직은 지원하지 않습니다. 필요하신 분이 많으면 우선순위를 올리겠습니다.
 
+**정말 무료인가요?**
+네. 개인 작업이든 업무용이든 무료로 쓸 수 있습니다. 회원가입도 없습니다.
+
+**새 버전은 어떻게 받나요?**
+[GitHub 릴리스 페이지](https://github.com/toolboxnotes/pdf-toolbox/releases/latest)에 새 버전이 올라옵니다. 저장소에서 Watch → Custom → Releases를 켜 두면 새 버전 알림을 받을 수 있습니다.
+
 **휴대폰에서도 쓸 수 있나요?**
 지금은 PC용입니다. 웹 버전을 준비하고 있습니다.
 
-## PDF 도구상자를 써 보고 싶다면
+## 의견과 버그 제보
 
-PDF 도구상자는 아직 정식 배포 전입니다. 써 보고 싶으신 분은 아래 메일로 연락 주세요. 아래 세 가지를 같이 적어 주시면 더 빨리 답장드릴 수 있습니다.
+[**PDF Toolbox 내려받기 (GitHub)**](https://github.com/toolboxnotes/pdf-toolbox/releases/latest)
 
-1. 사용하는 컴퓨터(Windows / Mac)
-2. 주로 하고 싶은 작업(예: 스캔본을 엑셀로, 계약서 서명)
-3. 있으면 좋겠는 기능
+써 보시고 불편한 점이나 있으면 좋겠는 기능이 있으면 알려 주세요. [GitHub 이슈](https://github.com/toolboxnotes/pdf-toolbox/issues)에 남기거나 메일로 보내 주시면 됩니다. 아래 세 가지를 같이 적어 주시면 더 빨리 반영할 수 있습니다.
+
+1. 사용하는 컴퓨터(Windows / Mac)와 브라우저
+2. 하려던 작업(예: 스캔본을 엑셀로, 계약서 서명)
+3. 문제가 생긴 화면이나 있으면 좋겠는 기능
 
 메일: [toolbox@toolboxnotes.com](mailto:toolbox@toolboxnotes.com)
 
