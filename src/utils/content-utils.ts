@@ -3,10 +3,22 @@ import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import { getCategoryUrl } from "@utils/url-utils.ts";
 
+// A post is visible when it is not a draft and its publish date (Korea time) has arrived.
+// Posts with a future `published` date stay hidden until a build runs on or after that day,
+// which is how scheduled publishing works (a scheduled rebuild runs on each publish day).
+function koreaToday(): string {
+	return new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10);
+}
+export function isVisible(data: { draft?: boolean; published: Date }): boolean {
+	if (!import.meta.env.PROD) return true;
+	if (data.draft === true) return false;
+	return new Date(data.published).toISOString().slice(0, 10) <= koreaToday();
+}
+
 // // Retrieve posts and sort them by publication date
 async function getRawSortedPosts() {
 	const allBlogPosts = await getCollection("posts", ({ data }) => {
-		return import.meta.env.PROD ? data.draft !== true : true;
+		return isVisible(data);
 	});
 
 	const sorted = allBlogPosts.sort((a, b) => {
@@ -53,7 +65,7 @@ export type Tag = {
 
 export async function getTagList(): Promise<Tag[]> {
 	const allBlogPosts = await getCollection<"posts">("posts", ({ data }) => {
-		return import.meta.env.PROD ? data.draft !== true : true;
+		return isVisible(data);
 	});
 
 	const countMap: { [key: string]: number } = {};
@@ -80,7 +92,7 @@ export type Category = {
 
 export async function getCategoryList(): Promise<Category[]> {
 	const allBlogPosts = await getCollection<"posts">("posts", ({ data }) => {
-		return import.meta.env.PROD ? data.draft !== true : true;
+		return isVisible(data);
 	});
 	const count: { [key: string]: number } = {};
 	allBlogPosts.forEach((post: { data: { category: string | null } }) => {

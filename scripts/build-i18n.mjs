@@ -58,6 +58,52 @@ function prepareContent(lang) {
 	console.log(`\n[i18n] content/${lang} -> src/content`);
 }
 
+
+// Scheduled posts (future `published` date) are not built yet, but already-published
+// posts may link to them ("related posts"). Remove those links until the target exists:
+// a list item that is only the link is dropped, any other link is replaced by its text.
+// Applies to post pages and the RSS feed of one language build.
+function pruneUnpublishedLinks(lang) {
+	const out = path.join(root, "dist", lang);
+	const exists = (p) => fs.existsSync(path.join(out, p.replace(new RegExp(`^/${lang}/`), ""), "index.html"));
+	const fix = (html, pageUrl) => {
+		const target = (href) => {
+			try {
+				const u = new URL(href, pageUrl);
+				if (u.origin !== SITE_URL) return null;
+				return new RegExp(`^/${lang}/posts/[^/]+/$`).test(u.pathname) ? u.pathname : null;
+			} catch { return null; }
+		};
+		const dead = (href) => { const t = target(href.replace(/&amp;/g, "&")); return t && !exists(t); };
+		html = html.replace(/<li>\s*<a [^>]*href="([^"]+)"[^>]*>(?:(?!<\/?li[\s>])[\s\S])*?<\/a>\s*<\/li>\s*/g, (m, href) => (dead(href) ? "" : m));
+		return html.replace(/<a [^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g, (m, href, text) => (dead(href) ? text : m));
+	};
+	const walk = (d) => {
+		for (const f of fs.readdirSync(d)) {
+			const p = path.join(d, f);
+			if (fs.statSync(p).isDirectory()) { walk(p); continue; }
+			if (!f.endsWith(".html")) continue;
+			const rel = path.relative(out, path.dirname(p)).split(path.sep).join("/");
+			const url = `${SITE_URL}/${lang}/${rel ? rel + "/" : ""}`;
+			const s = fs.readFileSync(p, "utf8");
+			const t = fix(s, url);
+			if (t !== s) fs.writeFileSync(p, t);
+		}
+	};
+	walk(path.join(out, "posts"));
+	const rss = path.join(out, "rss.xml");
+	if (fs.existsSync(rss)) {
+		// RSS content is HTML-escaped inside <content:encoded>; links there are absolute
+		const s = fs.readFileSync(rss, "utf8");
+		const t = s.replace(/&lt;li&gt;\s*&lt;a href="([^"]+)"&gt;(?:(?!&lt;\/?li&gt;)[\s\S])*?&lt;\/a&gt;\s*&lt;\/li&gt;\s*/g, (m, href) => {
+			try { const u = new URL(href); return u.origin === SITE_URL && /\/posts\/[^/]+\/$/.test(u.pathname) && !exists(u.pathname) ? "" : m; } catch { return m; }
+		}).replace(/&lt;a href="([^"]+)"&gt;([\s\S]*?)&lt;\/a&gt;/g, (m, href, text) => {
+			try { const u = new URL(href); return u.origin === SITE_URL && /\/posts\/[^/]+\/$/.test(u.pathname) && !exists(u.pathname) ? text : m; } catch { return m; }
+		});
+		if (t !== s) fs.writeFileSync(rss, t);
+	}
+}
+
 const [mode, devLang] = process.argv.slice(2);
 
 if (mode === "dev") {
@@ -72,6 +118,7 @@ fs.rmSync(path.join(root, "dist"), { recursive: true, force: true });
 for (const lang of LANGS) {
 	prepareContent(lang);
 	run("astro build", { SITE_LANG: lang });
+	pruneUnpublishedLinks(lang);
 	run(`pagefind --site dist/${lang}`);
 	// Also serve post images at their plain path next to the post
 	// (/<lang>/posts/<slug>/image.png) so images in the RSS feed resolve.
@@ -79,6 +126,8 @@ for (const lang of LANGS) {
 	for (const slug of fs.readdirSync(postsSrc)) {
 		const dir = path.join(postsSrc, slug);
 		if (!fs.statSync(dir).isDirectory()) continue;
+		// scheduled posts that are not published yet have no page; skip their images too
+		if (!fs.existsSync(path.join(root, "dist", lang, "posts", slug, "index.html"))) continue;
 		for (const f of fs.readdirSync(dir)) {
 			if (!/\.(png|jpe?g|gif|webp|svg)$/i.test(f)) continue;
 			const out = path.join(root, "dist", lang, "posts", slug);
