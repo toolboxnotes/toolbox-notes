@@ -1,7 +1,7 @@
 ---
 title: "How to Make a Scanned PDF Searchable Offline (Free OCR)"
 description: "Can't search or copy text in a scanned PDF? Add a searchable text layer with free offline OCR on Windows or Mac. No upload, no page limits."
-published: 2026-11-13
+published: 2026-11-12
 draft: false
 category: Tools
 tags: ["PDF", "OCR", "scanned PDF", "searchable PDF", "offline", "PDF Toolbox"]

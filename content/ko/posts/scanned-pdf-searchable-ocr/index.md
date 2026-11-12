@@ -1,7 +1,7 @@
 ---
 title: "스캔 PDF 검색 가능하게 만들기: 업로드 없는 무료 OCR"
 description: "스캔한 PDF에서 글자 검색과 복사가 안 될 때, 파일을 올리지 않고 내 PC에서 OCR로 검색 가능한 PDF를 만드는 방법을 설정값과 함께 정리했습니다."
-published: 2026-11-13
+published: 2026-11-12
 draft: false
 category: 도구
 tags: ["PDF", "OCR", "스캔 PDF", "검색 가능한 PDF", "오프라인", "PDF Toolbox"]
