@@ -95,9 +95,9 @@ function pruneUnpublishedLinks(lang) {
 	if (fs.existsSync(rss)) {
 		// RSS content is HTML-escaped inside <content:encoded>; links there are absolute
 		const s = fs.readFileSync(rss, "utf8");
-		const t = s.replace(/&lt;li&gt;\s*&lt;a href="([^"]+)"&gt;(?:(?!&lt;\/?li&gt;)[\s\S])*?&lt;\/a&gt;\s*&lt;\/li&gt;\s*/g, (m, href) => {
+		const t = s.replace(/&lt;li&gt;\s*&lt;a href=(?:"|&quot;)((?:(?!&quot;)[^"])+)(?:"|&quot;)&gt;(?:(?!&lt;\/?li&gt;)[\s\S])*?&lt;\/a&gt;\s*&lt;\/li&gt;\s*/g, (m, href) => {
 			try { const u = new URL(href); return u.origin === SITE_URL && /\/posts\/[^/]+\/$/.test(u.pathname) && !exists(u.pathname) ? "" : m; } catch { return m; }
-		}).replace(/&lt;a href="([^"]+)"&gt;([\s\S]*?)&lt;\/a&gt;/g, (m, href, text) => {
+		}).replace(/&lt;a href=(?:"|&quot;)((?:(?!&quot;)[^"])+)(?:"|&quot;)&gt;([\s\S]*?)&lt;\/a&gt;/g, (m, href, text) => {
 			try { const u = new URL(href); return u.origin === SITE_URL && /\/posts\/[^/]+\/$/.test(u.pathname) && !exists(u.pathname) ? text : m; } catch { return m; }
 		});
 		if (t !== s) fs.writeFileSync(rss, t);
