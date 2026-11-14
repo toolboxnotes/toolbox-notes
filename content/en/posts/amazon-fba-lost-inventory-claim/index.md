@@ -1,5 +1,5 @@
 ---
-title: 'Amazon FBA Missing Inventory: Find Lost Units, File a Reimbursement Claim, and Confirm You Got Paid'
+title: 'Amazon FBA Lost Inventory: Find, Claim and Confirm Payouts'
 published: 2026-11-09
 description: 'A step-by-step walkthrough with real Seller Central screens: how to spot FBA lost inventory, check whether Amazon already reimbursed or found it, file a claim for what is left, and verify the payout.'
 tags: [Amazon, FBA, Lost Inventory, Reimbursements, Inventory Ledger]
@@ -16,7 +16,7 @@ Amazon reimburses most of this automatically, but some cases slip through, and o
 3. File a claim only for what is left
 4. Confirm the payout and any later reversal
 
-> Screens are from US Seller Central (English). SKUs, ASINs, FNSKUs, order IDs, transaction IDs and product names are masked.
+> Screens are from US Seller Central (English). SKUs, ASINs, FNSKUs, order IDs, transaction IDs and product names are masked. For the policy rules on their own (eligibility, windows, payout basis), see [FBA reimbursement policy: claim windows and payout rules](../amazon-seller-12-fba-reimbursement/).
 
 ## First: the deadline depends on where the units went missing
 
@@ -193,7 +193,7 @@ Interested in SellerMorning? Email [toolbox@toolboxnotes.com](mailto:toolbox@too
 
 **Related reading**
 
-- [How to Claim FBA Reimbursements for Lost or Damaged Inventory](../amazon-seller-12-fba-reimbursement/) (policy summary)
+- [FBA reimbursement policy: claim windows and payout rules](../amazon-seller-12-fba-reimbursement/) (policy summary)
 - [FBA inventory without stock-outs or overstock](../amazon-seller-7-fba-inventory/)
 - [Finding problems in orders and returns](../amazon-seller-8-orders-returns/)
 - [Check profit before you change a price](../amazon-seller-13-fees-profit/)

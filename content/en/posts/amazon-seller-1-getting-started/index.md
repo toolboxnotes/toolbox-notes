@@ -1,5 +1,5 @@
 ---
-title: 'How to Become an Amazon Seller: From Sign-Up to Your First Sale'
+title: 'How to Become an Amazon Seller: Sign-Up to First Sale'
 published: 2026-10-08
 description: 'How to become an Amazon.com seller with an ID, a bank account and one product: registering, listing and making your first sale, step by step.'
 tags: [Amazon, Getting Started, FBA]

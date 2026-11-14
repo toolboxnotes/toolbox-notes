@@ -1,5 +1,5 @@
 ---
-title: 'Amazon PPC Optimization: 4 Places Ad Spend Leaks and How to Fix Bids'
+title: 'Amazon PPC Optimization: 4 Places Ad Spend Leaks'
 published: 2026-10-14
 description: 'The ads feature finds searches that waste money, bids that eat profit and keywords you missed, and says exactly how to fix them.'
 tags: [Amazon, SellerMorning, Amazon Ads, PPC]

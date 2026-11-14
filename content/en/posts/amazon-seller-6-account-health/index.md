@@ -1,5 +1,5 @@
 ---
-title: 'Amazon Account Health Rating (AHR): How to Avoid Account Deactivation'
+title: 'Amazon Account Health Rating (AHR): Avoid Deactivation'
 published: 2026-10-18
 description: 'Amazon''s Account Health Rating bands, the metrics you must keep, and what to do step by step when your score drops.'
 tags: [Amazon, Account Health, AHR, Seller Central]

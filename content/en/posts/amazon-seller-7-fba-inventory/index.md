@@ -1,5 +1,5 @@
 ---
-title: 'Amazon FBA Inventory Management: Avoid Stock-outs and Aged Inventory Fees'
+title: 'FBA Inventory Management: Avoid Stock-outs and Aged Fees'
 published: 2026-10-20
 description: 'FBA storage fees, aged inventory surcharges and low-inventory fees, plus a simple way to decide when and how much to restock.'
 tags: [Amazon, FBA, Inventory, Storage Fees]

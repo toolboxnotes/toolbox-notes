@@ -1,5 +1,5 @@
 ---
-title: 'How to Use Amazon Brand Analytics to Find Where Shoppers Drop Off'
+title: 'Amazon Brand Analytics: Find Where Shoppers Drop Off'
 published: 2026-10-26
 description: 'Use the Brand Analytics search funnel (impressions, clicks, cart adds, purchases) to find where shoppers drop off and what to check.'
 tags: [Amazon, Brand Analytics, Search Funnel, SQP]

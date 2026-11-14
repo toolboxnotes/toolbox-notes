@@ -1,5 +1,5 @@
 ---
-title: 'How to Read Amazon Business Reports: Sessions, Conversion and Buy Box'
+title: 'How to Read Amazon Business Reports: Sessions and Conversion'
 published: 2026-10-24
 description: 'Split a sales drop into sessions and conversion with Business Reports, and what to do in each of four cases, including Buy Box.'
 tags: [Amazon, Business Reports, Conversion, Buy Box]

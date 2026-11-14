@@ -1,5 +1,5 @@
 ---
-title: '아마존 FBA 재고 분실 확인부터 보상 신청·회수 확인까지: 셀러센트럴 실제 화면으로 따라 하기'
+title: '아마존 FBA 재고 분실 보상 신청: 셀러센트럴 화면으로 단계별 따라 하기'
 published: 2026-11-09
 description: 'FBA 창고에서 사라진 재고를 셀러센트럴에서 확인하고, 보상(Reimbursement)을 신청하고, 보상금이 들어왔는지·재고가 다시 발견됐는지 확인하는 전체 과정을 실제 화면으로 정리했습니다.'
 tags: [아마존, FBA, 재고 분실, 보상 신청, 재고 원장]
@@ -16,7 +16,7 @@ FBA로 판매하다 보면 재고 숫자가 조금씩 맞지 않는 날이 있�
 3. 빠진 건만 골라 보상 신청하기
 4. 보상금과 재고 회수 여부 최종 확인하기
 
-> 이 글은 미국 셀러센트럴(한국어 화면) 기준입니다. 화면의 SKU·ASIN·FNSKU·주문 번호·상품명은 가렸습니다.
+> 이 글은 미국 셀러센트럴(한국어 화면) 기준입니다. 화면의 SKU·ASIN·FNSKU·주문 번호·상품명은 가렸습니다. 보상 정책만 따로 정리한 글은 [아마존 FBA 재고 보상 정책](../amazon-seller-12-fba-reimbursement/)을 보세요.
 
 ## 먼저 알아둘 것: 어디서 사라졌는지에 따라 기한이 다르다
 
@@ -193,7 +193,7 @@ SellerMorning에 관심이 있으면 [toolbox@toolboxnotes.com](mailto:toolbox@t
 
 **함께 읽으면 좋은 글**
 
-- [아마존 FBA 분실·파손 재고 보상 신청 방법과 기한 총정리](../amazon-seller-12-fba-reimbursement/) (보상 정책 요약)
+- [아마존 FBA 재고 보상 정책: 분실·파손 신청 기한과 보상 기준](../amazon-seller-12-fba-reimbursement/) (보상 정책 요약)
 - [FBA 재고, 품절도 과재고도 없게](../amazon-seller-7-fba-inventory/)
 - [주문·반품 숫자에서 문제 찾기](../amazon-seller-8-orders-returns/)
 - [아마존 판매 수수료와 이익 계산법](../amazon-seller-13-fees-profit/)

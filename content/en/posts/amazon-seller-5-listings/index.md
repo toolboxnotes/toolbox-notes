@@ -1,5 +1,5 @@
 ---
-title: 'Amazon''s 75-Character Title Rule: How to Audit and Safely Bulk-Edit Listings'
+title: 'Amazon''s 75-Character Title Rule: Audit and Fix Listings'
 published: 2026-10-16
 description: 'Check every listing against rules like the 75-character title limit, then apply only the fixes you approve, with an undo for each.'
 tags: [Amazon, SellerMorning, Listings, SP-API]

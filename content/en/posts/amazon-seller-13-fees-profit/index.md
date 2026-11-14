@@ -1,5 +1,5 @@
 ---
-title: 'Amazon Seller Fees and Profit: Find Your Break-Even ACoS Before Repricing'
+title: 'Amazon Seller Fees and Profit: Find Your Break-Even ACoS'
 published: 2026-11-01
 description: 'Work out per-unit profit and break-even ACoS from referral, FBA and storage fees, product cost and ad spend, with a worked example.'
 tags: [Amazon, Fees, Profit, ACoS]

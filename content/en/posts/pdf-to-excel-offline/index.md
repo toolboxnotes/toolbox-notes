@@ -1,5 +1,5 @@
 ---
-title: "How to Convert PDF to Excel Offline With Numbers You Can Calculate"
+title: 'PDF to Excel Offline: Get Numbers You Can Calculate'
 description: "Move tables from quotes, statements and price lists in a PDF into Excel for free. Numbers with commas become real values, and scanned tables are handled with OCR. No upload."
 published: 2026-11-23
 draft: false

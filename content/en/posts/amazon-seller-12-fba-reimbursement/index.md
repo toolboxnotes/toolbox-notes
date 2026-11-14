@@ -1,5 +1,5 @@
 ---
-title: 'How to Claim FBA Reimbursements for Lost or Damaged Inventory'
+title: 'FBA Reimbursement Policy: Claim Windows and Payout Rules'
 published: 2026-10-30
 description: 'Claim windows and payout rules for lost, damaged and refunded-but-not-returned FBA inventory, and how to find and file missing claims.'
 tags: [Amazon, FBA, Reimbursements, Inventory Ledger]
@@ -10,6 +10,8 @@ draft: false
 ## Amazon loses inventory too
 
 In FBA warehouses, stock gets lost or damaged, and sometimes a customer is refunded but never returns the item. Amazon reimburses most of this automatically, but some cases slip through, and then the seller has to file a claim within the deadline.
+
+> This post covers the **rules**: what is eligible, the claim windows and how the payout is calculated. To actually find missing units and file a claim step by step with real Seller Central screens, see [Amazon FBA lost inventory: find, claim and confirm payouts](../amazon-fba-lost-inventory-claim/).
 
 ### The updated reimbursement policy
 
@@ -45,8 +47,6 @@ The hard part: a ‘lost’ event is often offset by a later ‘found’, or rei
 ![Finance and reimbursements summary](./reimbursement-report.png)
 
 *The finance and reimbursements Summary: claimable lost or damaged units and refunds without returns, with deadlines and how to file (SKUs, amounts and Reference IDs masked; the program's reports are in Korean).*
-
-> For a hands-on walkthrough with real Seller Central screens — from spotting lost units to filing and confirming the payout — see [FBA missing inventory: a step-by-step claim guide](../amazon-fba-lost-inventory-claim/).
 
 ---
 

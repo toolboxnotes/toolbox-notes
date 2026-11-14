@@ -1,5 +1,5 @@
 ---
-title: 'How to Analyze Amazon Orders and Returns: Find the SKUs Losing Sales'
+title: 'Amazon Orders and Returns: Find the SKUs Losing Sales'
 published: 2026-10-22
 description: 'How to find SKUs with falling sales or high return rates in your order and return reports, and what to fix for each return reason.'
 tags: [Amazon, Order Reports, Returns, Seller Central]

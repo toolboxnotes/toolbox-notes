@@ -1,5 +1,5 @@
 ---
-title: 'Why Running an Amazon Store Gets Hard: 6 Things to Check Daily in Seller Central'
+title: 'Why Running an Amazon Store Gets Hard: 6 Daily Checks'
 published: 2026-10-10
 description: 'As your catalog grows, managing it becomes the real job. The six things to check every day, and why Seller Central makes it hard, with real screens.'
 tags: [Amazon, Seller Central, Operations]

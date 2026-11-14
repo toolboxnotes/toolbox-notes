@@ -7,6 +7,8 @@ import swup from "@swup/astro";
 import expressiveCode from "astro-expressive-code";
 import icon from "astro-icon";
 import { defineConfig } from "astro/config";
+import fs from "node:fs";
+import path from "node:path";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeComponents from "rehype-components"; /* Render the custom directive content */
 import rehypeKatex from "rehype-katex";
@@ -27,6 +29,24 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 // Bilingual build: scripts/build-i18n.mjs runs this config once per language
 // with SITE_LANG=en and SITE_LANG=ko, producing dist/en/ and dist/ko/.
 const SITE_LANG = process.env.SITE_LANG === "ko" ? "ko" : "en";
+
+// Sitemap <lastmod>: map each post URL to its frontmatter `updated` date,
+// falling back to `published`. Pages without a known date get no lastmod.
+function postDates(lang) {
+	const dir = path.join(process.cwd(), "content", lang, "posts");
+	const map = new Map();
+	if (!fs.existsSync(dir)) return map;
+	for (const slug of fs.readdirSync(dir)) {
+		const file = path.join(dir, slug, "index.md");
+		if (!fs.existsSync(file)) continue;
+		const fm = fs.readFileSync(file, "utf8").split(/^---\s*$/m)[1] || "";
+		const pick = (k) => (fm.match(new RegExp(`^${k}:\\s*['"]?(\\d{4}-\\d{2}-\\d{2})`, "m")) || [])[1];
+		const date = pick("updated") || pick("published");
+		if (date) map.set(slug, date);
+	}
+	return map;
+}
+const POST_DATES = postDates(SITE_LANG);
 
 // https://astro.build/config
 export default defineConfig({
@@ -106,7 +126,14 @@ export default defineConfig({
 			}
 		}),
         svelte(),
-		sitemap(),
+		sitemap({
+			serialize(item) {
+				const m = item.url.match(/\/posts\/([^/]+)\/?$/);
+				const date = m && POST_DATES.get(decodeURIComponent(m[1]));
+				if (date) item.lastmod = new Date(`${date}T00:00:00+09:00`).toISOString();
+				return item;
+			},
+		}),
 	],
 	markdown: {
 		remarkPlugins: [

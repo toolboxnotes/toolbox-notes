@@ -1,5 +1,5 @@
 ---
-title: "PDF to JPG and JPG to PDF: Convert Images and PDFs Offline (Free)"
+title: 'PDF to JPG and JPG to PDF: Free Offline Converter'
 description: "Save PDF pages as JPG or PNG images, or turn several phone photos into one PDF. Includes how to pick the right resolution, with no upload."
 published: 2026-11-29
 draft: false

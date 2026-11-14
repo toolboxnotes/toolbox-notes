@@ -1,5 +1,5 @@
 ---
-title: 'PDF Toolbox: Free Offline PDF Converter for Windows and Mac (Merge, PDF to Word, OCR, No Uploads)'
+title: 'PDF Toolbox: Free Offline PDF Converter for Windows and Mac'
 published: 2026-11-10
 description: 'I built PDF Toolbox because I did not want to upload contracts and quotes to random websites. It merges, splits and compresses PDFs, converts PDF to Word, Excel and PowerPoint, runs OCR on scans, signs and encrypts files, 23 tools in all, entirely on your own computer with nothing to install. Free to download from GitHub.'
 tags: [PDF, PDF Converter, Offline, OCR, PDF to Word, Merge PDF, PDF Toolbox]
